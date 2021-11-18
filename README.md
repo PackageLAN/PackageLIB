@@ -1,0 +1,2 @@
+# PackageLIB
+ Personal KiCAD libraries
