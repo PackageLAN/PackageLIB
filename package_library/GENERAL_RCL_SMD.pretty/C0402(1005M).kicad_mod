@@ -1,9 +1,9 @@
-(module "R0402(1005M)" (layer F.Cu) (tedit 61D90481)
+(module "C0402(1005M)" (layer F.Cu) (tedit 61D90C40)
   (attr smd)
   (fp_text reference REF** (at 0 1.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value "R0402(1005M)" (at 0 -1.75) (layer F.Fab)
+  (fp_text value "C0402(1005M)" (at 0 -1.75) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.725 0.475) (end 0.725 0.475) (layer F.SilkS) (width 0.15))
@@ -12,7 +12,7 @@
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1))
   (pad 2 smd roundrect (at 0.5 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1))
-  (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl
+  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
