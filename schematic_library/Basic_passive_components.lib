@@ -4,7 +4,7 @@ EESchema-LIBRARY Version 2.4
 # Capacitor
 #
 DEF Capacitor C 0 40 Y Y 1 F N
-F0 "C" -150 -100 50 H V C CNN
+F0 "C" -175 -100 50 H V C CNN
 F1 "Capacitor" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
@@ -42,7 +42,7 @@ ENDDEF
 # Inductor
 #
 DEF Inductor L 0 40 Y Y 1 F N
-F0 "L" -125 -100 50 H V C CNN
+F0 "L" -175 -100 50 H V C CNN
 F1 "Inductor" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
@@ -62,14 +62,14 @@ ENDDEF
 # Polar_Capacitor
 #
 DEF Polar_Capacitor C 0 40 Y Y 1 F N
-F0 "C" -275 -100 50 H V C CNN
+F0 "C" -175 -100 50 H V C CNN
 F1 "Polar_Capacitor" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-A 100 0 78 1402 -1402 0 1 0 N 40 50 40 -50
 P 2 0 1 0 -80 -40 -40 -40 N
 P 2 0 1 0 -60 -20 -60 -60 N
+P 2 0 1 0 25 50 25 -50 N
 P 2 1 1 0 -150 0 -25 0 N
 P 2 1 1 0 -25 50 -25 -50 N
 P 2 1 1 0 25 0 150 0 N
@@ -97,7 +97,7 @@ ENDDEF
 # Resistor
 #
 DEF Resistor R 0 40 Y Y 1 F N
-F0 "R" -125 -100 50 H V C CNN
+F0 "R" -175 -100 50 H V C CNN
 F1 "Resistor" 0 100 50 H V C CNN
 F2 "" -150 150 50 H I C CNN
 F3 "" -150 150 50 H I C CNN
