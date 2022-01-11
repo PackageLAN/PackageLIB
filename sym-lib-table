@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Basic_passive_components)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Basic_passive_components.lib)(options "")(descr ""))
-  (lib (name Microcontroller)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Microcontroller.lib)(options "")(descr ""))
-)
