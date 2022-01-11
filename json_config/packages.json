@@ -1,0 +1,37 @@
+{
+    "packages": [
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "author": {
+                "contact": {
+                    "email": "2208213223@qq.com"
+                },
+                "name": "Zhu Yanzhen, Tan Zhenlun"
+            },
+            "description": "A library of schematics and footprint that comply with Chinese standards.",
+            "description_full": "This package contains footprints and schematic library comply with Chinese standards.",
+            "identifier": "com.github.packagelan.packagelib",
+            "license": "GPL-3.0",
+            "name": "PackageLAN PackageLIB",
+            "resources": {
+                "Github": "https://github.com/PackageLAN/PackageLIB"
+            },
+            "tags": [
+                "footprint",
+                "library"
+            ],
+            "type": "library",
+            "versions": [
+                {
+                    "download_sha256": "f5ae06ca0bf2b1f32807f49d210e9d87e2a6fbf7bf2a7aa576b83331f11212a2",
+                    "download_size": 39239,
+                    "download_url": "https://github.com/PackageLAN/PackageLIB/archive/refs/tags/library.zip",
+                    "install_size": 137324,
+                    "kicad_version": "6.0.0",
+                    "status": "testing",
+                    "version": "1.0"
+                }
+            ]
+        }
+    ]
+}

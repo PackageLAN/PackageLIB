@@ -1,0 +1,22 @@
+{
+    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+    "maintainer": {
+        "contact": {
+            "web": "http://www.acmetech.top/"
+        },
+        "name": "AcmeTech"
+    },
+    "name": "AcmeTech official repository",
+    "packages": {
+        "sha256": "61824863602146ceda7b4145e616bce9c62cf1e34212bc7d6b819565b42226b4",
+        "update_time_utc": "2022-01-11 11:30:00",
+        "update_timestamp": 1641900600,
+        "url": "https://gitlab.com/kicad/addons/repository/-/raw/main/packages.json"
+    },
+    "resources": {
+        "sha256": "d14d54b1d6337a120925088ea41f6d940c62f74d46c675c1e3a6bea686062d66",
+        "update_time_utc": "2022-01-11 11:30:00",
+        "update_timestamp": 1641900600,
+        "url": "https://gitlab.com/kicad/addons/repository/-/jobs/artifacts/main/raw/artifacts/resources.zip?job=update"
+    }
+}
