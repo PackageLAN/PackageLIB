@@ -8,7 +8,7 @@
     },
     "name": "AcmeTech official repository",
     "packages": {
-        "sha256": "fd69710a3a2f9e08e0cc85118c1f68284cc1ddbd54e46b84a769705915f74ee6",
+        "sha256": "b0d780ee6f730de567842325a04870c45f056bb20d9d9869f4eeba2e751cde64",
         "update_time_utc": "2022-01-11 11:30:00",
         "update_timestamp": 1641900600,
         "url": "https://raw.githubusercontent.com/PackageLAN/PackageLIB/main/json_config/packages.json"

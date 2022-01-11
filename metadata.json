@@ -1,12 +1,12 @@
 {
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
     "name": "PackageLAN PackageLIB",
-    "description": "A library of schematics and footprint that comply with Chinese standards.",
-    "description_full": "This package contains footprints and schematic library comply with Chinese standards.",
+    "description": "根据国标设计的原理图和PCB库。",
+    "description_full": "这个包包含了根据国标设计的原理图和PCB库。",
     "identifier": "com.github.packagelan.packagelib",
     "type": "library",
     "author": {
-        "name": "Zhu Yanzhen, Tan Zhenlun",
+        "name": "朱彦臻, 谭桢仑",
         "contact": {
             "email": "2208213223@qq.com"
         }
