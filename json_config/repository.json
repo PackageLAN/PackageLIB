@@ -11,12 +11,12 @@
         "sha256": "61824863602146ceda7b4145e616bce9c62cf1e34212bc7d6b819565b42226b4",
         "update_time_utc": "2022-01-11 11:30:00",
         "update_timestamp": 1641900600,
-        "url": "https://gitlab.com/kicad/addons/repository/-/raw/main/packages.json"
+        "url": "https://raw.githubusercontent.com/PackageLAN/PackageLIB/main/json_config/packages.json"
     },
     "resources": {
-        "sha256": "d14d54b1d6337a120925088ea41f6d940c62f74d46c675c1e3a6bea686062d66",
+        "sha256": "c37b21a46f7aed5e8e775ddffed57f7a73f7212214accc48b493353a32af5cf1",
         "update_time_utc": "2022-01-11 11:30:00",
         "update_timestamp": 1641900600,
-        "url": "https://gitlab.com/kicad/addons/repository/-/jobs/artifacts/main/raw/artifacts/resources.zip?job=update"
+        "url": "https://raw.githubusercontent.com/PackageLAN/PackageLIB/main/json_config/resources.zip"
     }
 }
