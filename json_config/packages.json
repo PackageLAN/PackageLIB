@@ -23,10 +23,10 @@
             "type": "library",
             "versions": [
                 {
-                    "download_sha256": "f5ae06ca0bf2b1f32807f49d210e9d87e2a6fbf7bf2a7aa576b83331f11212a2",
-                    "download_size": 39239,
-                    "download_url": "https://github.com/PackageLAN/PackageLIB/archive/refs/tags/library.zip",
-                    "install_size": 137324,
+                    "download_sha256": "d397f2f9aafed973ea8d306ce4f4293d597c6fd5a14898b4b7012cc55d67ef23",
+                    "download_size": 25719,
+                    "download_url": "https://github.com/PackageLAN/PackageLIB/releases/download/library/PackageLIB-main.zip",
+                    "install_size": 102283,
                     "kicad_version": "6.0.0",
                     "status": "testing",
                     "version": "1.0"
