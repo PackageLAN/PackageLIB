@@ -6,13 +6,13 @@
                 "contact": {
                     "email": "2208213223@qq.com"
                 },
-                "name": "Zhu Yanzhen, Tan Zhenlun"
+                "name": "朱彦臻, 谭桢仑"
             },
-            "description": "A library of schematics and footprint that comply with Chinese standards.",
-            "description_full": "This package contains footprints and schematic library comply with Chinese standards.",
+            "description": "根据国标设计的原理图和PCB库。",
+            "description_full": "这个包包含了根据国标设计的原理图和PCB库。",
             "identifier": "com.github.packagelan.packagelib",
             "license": "GPL-3.0",
-            "name": "PackageLAN PackageLIB",
+            "name": "通用元件库",
             "resources": {
                 "Github": "https://github.com/PackageLAN/PackageLIB"
             },
@@ -23,9 +23,9 @@
             "type": "library",
             "versions": [
                 {
-                    "download_sha256": "d397f2f9aafed973ea8d306ce4f4293d597c6fd5a14898b4b7012cc55d67ef23",
+                    "download_sha256": "b1f29ed1d8aeaaf2c91f8d5f0639f837c6e129b10e72f514a782c452f3e1b375",
                     "download_size": 25719,
-                    "download_url": "https://github.com/PackageLAN/PackageLIB/releases/download/library/PackageLIB-main.zip",
+                    "download_url": "https://github.com/PackageLAN/PackageLIB/releases/download/version1.0/PackageLIB-main.zip",
                     "install_size": 102283,
                     "kicad_version": "6.0.0",
                     "status": "testing",
