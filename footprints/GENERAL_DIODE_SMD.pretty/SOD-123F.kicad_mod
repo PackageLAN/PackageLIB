@@ -1,6 +1,6 @@
 (footprint "SOD-123F" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61DD65BE)
+  (tedit 61F8A0E9)
   (attr smd)
   (fp_text reference "REF**" (at 0 2 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -18,7 +18,7 @@
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp c8c79177-94d4-43e2-a654-f0a5554fbb68))
   (pad "2" smd roundrect (at 1.5 0) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp dc2801a1-d539-4721-b31f-fe196b9f13df))
-  (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/GENRAL_DIODE_SMD.3dshapes/D_SOD-123F.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
