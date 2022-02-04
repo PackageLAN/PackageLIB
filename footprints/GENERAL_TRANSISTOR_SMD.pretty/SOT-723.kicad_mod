@@ -1,6 +1,6 @@
 (footprint "SOT-723" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F9615C)
+  (tedit 61FCB303)
   (attr smd)
   (fp_text reference "REF**" (at 0 1.75 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -26,9 +26,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp c06b07a5-81e8-4fba-b75f-eafa053e1406))
   (pad "3" smd roundrect (at -0.5 0 90) (size 0.42 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp f27a0a1a-93ad-49f4-89fe-1730de977ec9))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/GENRAL_TRANSISTOR_SMD.3dshapes/SOT-23.wrl"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/GENRAL_TRANSISTOR_SMD.3dshapes/SOT-723.wrl"
     (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 90 180 180))
   )
 )
