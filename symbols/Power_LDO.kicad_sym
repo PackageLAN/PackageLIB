@@ -6,7 +6,7 @@
     (property "Value" "LDO-3" (id 1) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "GENERAL_TRANSISTOR_SMD:SOT-23" (id 2) (at 12.7 7.62 0)
+    (property "Footprint" "GENERAL_TRANSISTOR_SMD:SOT-23" (id 2) (at 20.32 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
