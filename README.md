@@ -19,5 +19,5 @@
 源代码根据[AGPL-3.0许可证](https://github.com/PackageLAN/PackageLIB/tree/main/LICENSE)发布。该产品已经在Windows 10、Ubuntu 18.04和20.04下进行了测试。这是一个研究型库，希望它经常更改，并且不承认任何特定用途的适用性。
 
 **组织：AcmeTech <br>
-作者：朱彦臻, 谭桢仑<br>
-维护人：朱彦臻, 谭桢仑, 2208213223@qq.com**
+作者：朱彦臻, PackageLAN<br>
+维护人：朱彦臻, PackageLAN, 2208213223@qq.com**
