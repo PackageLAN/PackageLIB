@@ -1,7 +1,7 @@
 # PackageLIB
 ![Version](https://img.shields.io/badge/Version-1.0-brightgreen.svg)&nbsp;&nbsp;![Build](https://img.shields.io/badge/Build-Passed-success.svg)&nbsp;&nbsp;![License](https://img.shields.io/badge/License-AGPL-blue.svg)
 
-&nbsp;&nbsp;&nbsp;&nbsp;这是一个基于国标绘制的KiCAD 6.0.0元器件封装库，它可以通过KiCAD 6.0.0中新增的包管理工具进行安装。
+&nbsp;&nbsp;&nbsp;&nbsp;这是一个基于国标绘制的KiCAD 6.0元器件封装库，它可以通过KiCAD 6.0中新增的包管理工具进行安装。
 
 ***
 
