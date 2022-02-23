@@ -1,6 +1,6 @@
 (footprint "DFN-1006_3" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62125963)
+  (tedit 6215A681)
   (descr "SOT-883/DFN-1006_3")
   (attr smd)
   (fp_text reference "REF**" (at 0 1 unlocked) (layer "F.SilkS")
