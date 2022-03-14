@@ -1,6 +1,6 @@
 (footprint "SOD-123F" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62199589)
+  (tedit 622E0E96)
   (attr smd)
   (fp_text reference "REF**" (at 0 2 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
