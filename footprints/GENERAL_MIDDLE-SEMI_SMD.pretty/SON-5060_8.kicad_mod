@@ -1,6 +1,6 @@
 (footprint "SON-5060_8" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 622B3C78)
+  (tedit 62368C35)
   (attr smd)
   (fp_text reference "REF**" (at 0 4.75 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -46,7 +46,7 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp acd3eed8-82ea-477a-b50a-3a7848551491))
   (pad "8" smd rect (at -1.905 -2.75) (size 0.6 1) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp b84cd507-81d3-4b97-84f4-ffd2f1f1857e))
-  (pad "9" smd roundrect (at 0 0) (size 4.5 3.5) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.025)
+  (pad "EP" smd roundrect (at 0 0) (size 4.5 3.5) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.025)
     (chamfer_ratio 0.075) (chamfer bottom_left)
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.05) (tstamp 181abe7a-f941-42b6-bd46-aaa3131f90fb))
   (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/POWER_TRANSISTOR_SMD.3dshapes/SON-8_5x6.wrl"
