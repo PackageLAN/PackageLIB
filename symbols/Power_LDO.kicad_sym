@@ -22,7 +22,7 @@
       )
     )
     (symbol "LDO-3_1_1"
-      (pin passive line (at -5.08 -2.54 0) (length 1.27)
+      (pin power_in line (at -5.08 -2.54 0) (length 1.27)
         (name "GND" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
       )
@@ -63,7 +63,7 @@
         (name "VIN" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
       )
-      (pin passive line (at -5.08 -5.08 0) (length 1.27)
+      (pin power_in line (at -5.08 -5.08 0) (length 1.27)
         (name "GND" (effects (font (size 0.635 0.635))))
         (number "2" (effects (font (size 0.635 0.635))))
       )
