@@ -1,6 +1,6 @@
 (footprint "SOT-23-5" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 621993A1)
+  (tedit 624725EB)
   (attr smd)
   (fp_text reference "REF**" (at 0 2.75 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
