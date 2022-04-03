@@ -12,7 +12,7 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Alternative group of 5 pins Operational Amplifier (Pinout A)." (id 4) (at 0 0 0)
+    (property "ki_description" "Alternative group of 5 pins operational amplifier (Pinout A)." (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "OP_AMP-5A_0_1"
@@ -97,7 +97,7 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Alternative group of 5 pins Operational Amplifier (Pinout B)." (id 4) (at 0 0 0)
+    (property "ki_description" "Alternative group of 5 pins operational amplifier (Pinout B)." (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "OP_AMP-5B_0_1"
@@ -182,7 +182,7 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Alternative group of 6 pins Operational Amplifier with REF pin." (id 4) (at 0 0 0)
+    (property "ki_description" "Alternative group of 6 pins operational amplifier with REF pin." (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "OP_AMP-6_0_1"
@@ -262,7 +262,7 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Alternative group of 8 pins Operational Amplifier." (id 4) (at 0 0 0)
+    (property "ki_description" "Alternative group of 8 pins operational amplifier." (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "OP_AMP-8_0_1"
@@ -344,7 +344,7 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Alternative group of 8 pins Operational Amplifier with exposed pad." (id 4) (at 0 0 0)
+    (property "ki_description" "Alternative group of 8 pins operational amplifier with exposed pad." (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "OP_AMP-8_EP_0_1"
