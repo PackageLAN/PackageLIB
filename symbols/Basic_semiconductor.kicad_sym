@@ -684,7 +684,7 @@
     (property "Value" "Diode_Zener" (id 1) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "GENERAL_2-PIN_PLASTIC_SMD:SOD-123" (id 2) (at 21.59 2.54 0)
+    (property "Footprint" "GENERAL_2-PIN_PLASTIC_SMD:SOD-123" (id 2) (at 25.4 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
