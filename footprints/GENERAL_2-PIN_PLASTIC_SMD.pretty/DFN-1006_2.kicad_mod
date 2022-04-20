@@ -1,6 +1,6 @@
 (footprint "DFN-1006_2" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 622E0EA3)
+  (tedit 626024E4)
   (attr smd)
   (fp_text reference "REF**" (at 0 1 unlocked) (layer "F.SilkS")
     (effects (font (size 0.6 0.6) (thickness 0.1)))
@@ -9,6 +9,10 @@
   (fp_text value "DFN-1006_2" (at 0 -1.5 unlocked) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7b044939-8c4d-444f-b9e0-a15fcdeb5a86)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 0.25 0.25) (thickness 0.05)))
+    (tstamp 581c7a64-fba5-4d4a-824b-f49a62311590)
   )
   (fp_line (start -0.525 0.4) (end 0.525 0.4) (layer "F.SilkS") (width 0.1) (tstamp 02b1295e-cf95-47ff-9c57-f8ada28f2e94))
   (fp_line (start -0.525 -0.4) (end 0.525 -0.4) (layer "F.SilkS") (width 0.1) (tstamp a1d977e9-aa2c-4b7a-b2e3-8ff3b816e1f2))

@@ -1,6 +1,6 @@
 (footprint "SOP-8" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 622B33C6)
+  (tedit 626025BC)
   (attr smd)
   (fp_text reference "REF**" (at 0 3.75 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -9,6 +9,10 @@
   (fp_text value "SOP-8" (at 0 -3.5 unlocked) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 712d6a7d-2b62-464f-b745-fd2a6b0187f6)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+    (tstamp a8cbed1e-0aca-42c5-9408-5695f73f4c4e)
   )
   (fp_line (start -3.2 -2.5) (end -2.2 -2.5) (layer "F.SilkS") (width 0.2) (tstamp 83021f70-e61e-4ad3-bae7-b9f02b28be4f))
   (fp_poly (pts

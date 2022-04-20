@@ -1,6 +1,6 @@
 (footprint "SOT-723" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 621994E9)
+  (tedit 62602585)
   (attr smd)
   (fp_text reference "REF**" (at 0 1.75 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -9,6 +9,10 @@
   (fp_text value "SOT-723" (at 0 -1.5 unlocked) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 917920ab-0c6e-4927-974d-ef342cdd4f63)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 0.25 0.25) (thickness 0.05)))
+    (tstamp fc2f586a-2668-45c8-8ef6-34a46f242d54)
   )
   (fp_line (start -0.45 0.45) (end -0.45 0.7) (layer "F.SilkS") (width 0.2) (tstamp 32a33c14-ad35-4ab3-9d14-69821847ef1b))
   (fp_line (start -0.45 0.7) (end 0.15 0.7) (layer "F.SilkS") (width 0.2) (tstamp 39146702-2809-457e-9c0d-9bd6a611c17a))
