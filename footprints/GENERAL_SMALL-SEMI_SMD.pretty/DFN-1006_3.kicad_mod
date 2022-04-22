@@ -1,6 +1,6 @@
 (footprint "DFN-1006_3" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 626024FC)
+  (tedit 6262C8EB)
   (descr "SOT-883/DFN-1006_3")
   (attr smd)
   (fp_text reference "REF**" (at 0 1 unlocked) (layer "F.SilkS")
@@ -28,7 +28,7 @@
     (solder_mask_margin 0.025) (solder_paste_margin_ratio -0.1) (tstamp 88606262-3ac5-44a1-aacc-18b26cf4d396))
   (pad "2" smd roundrect (at -0.35 0.175) (size 0.4 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.025) (solder_paste_margin_ratio -0.1) (tstamp 35fb7c56-dc85-43f7-b954-81b8040a8500))
-  (pad "3" smd roundrect (at 0.35 0) (size 0.4 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
+  (pad "3" smd roundrect (at 0.35 0 90) (size 0.55 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.025) (solder_paste_margin_ratio -0.1) (tstamp b6cd701f-4223-4e72-a305-466869ccb250))
   (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/GENRAL_TRANSISTOR_SMD.3dshapes/DFN-1006_3.wrl"
     (offset (xyz 0 0 0))
