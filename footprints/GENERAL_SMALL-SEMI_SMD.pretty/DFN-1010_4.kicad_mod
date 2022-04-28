@@ -31,8 +31,8 @@
       (gr_poly (pts
           (xy 0.2375 -0.0625)
           (xy 0.0625 0.1125)
-          (xy -0.2375 0.1125)
-          (xy -0.2375 -0.1125)
+          (xy -0.1875 0.1125)
+          (xy -0.1875 -0.1125)
           (xy 0.2375 -0.1125)
         ) (width 0.025) (fill yes))
     ) (tstamp 00f3ea8b-8a54-4e56-84ff-d98f6c00496c))
@@ -41,11 +41,11 @@
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
-          (xy 0.2375 0.1125)
+          (xy 0.1875 0.1125)
           (xy -0.0625 0.1125)
           (xy -0.2375 -0.0625)
           (xy -0.2375 -0.1125)
-          (xy 0.2375 -0.1125)
+          (xy 0.1875 -0.1125)
         ) (width 0.025) (fill yes))
     ) (tstamp cd1cff81-9d8a-4511-96d6-4ddb79484001))
   (pad "3" smd custom (at 0.325 -0.5 270) (size 0.2 0.1) (layers "F.Cu" "F.Paste" "F.Mask")
@@ -55,8 +55,8 @@
       (gr_poly (pts
           (xy 0.2375 -0.0625)
           (xy 0.0625 0.1125)
-          (xy -0.2375 0.1125)
-          (xy -0.2375 -0.1125)
+          (xy -0.1875 0.1125)
+          (xy -0.1875 -0.1125)
           (xy 0.2375 -0.1125)
         ) (width 0.025) (fill yes))
     ) (tstamp 968a6172-7a4e-40ab-a78a-e4d03671e136))
@@ -65,11 +65,11 @@
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
-          (xy 0.2375 0.1125)
+          (xy 0.1875 0.1125)
           (xy -0.0625 0.1125)
           (xy -0.2375 -0.0625)
           (xy -0.2375 -0.1125)
-          (xy 0.2375 -0.1125)
+          (xy 0.1875 -0.1125)
         ) (width 0.025) (fill yes))
     ) (tstamp 17ff35b3-d658-499b-9a46-ea36063fed4e))
   (pad "EP" smd roundrect (at 0 0 135) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
