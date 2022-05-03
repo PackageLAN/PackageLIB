@@ -1188,7 +1188,7 @@
     (property "Value" "YJQ3400A" (id 1) (at 8.89 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at -0.635 -10.16 0)
+    (property "Footprint" "POWER_TRANSISTOR_SMD:SON-2020_X" (id 2) (at -0.635 -10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -0.635 -10.16 0)
