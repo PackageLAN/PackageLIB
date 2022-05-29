@@ -16,17 +16,17 @@
 1. 一般使用圆角矩形优先，5%圆角，钢网层-10%，阻焊扩展0.05。
 2. 为保证钢网层收缩一致，焊盘尺寸需遵循x大于y。
 3. 具有中心Exposed Pad的封装，EP使用斜角且圆角矩形，斜角朝向1引脚。
-4. 对于单边长大于1.5mm的EP做钢网细化处理，使得钢网开孔边长0.45~1.2mm，钢网连接宽度一般为0.3mm，开孔相对焊盘收缩0.15~0.2mm。(此规则排除POWER器件)
-5. DFN、QFN、SON等无引脚封装的焊盘应超出本体0.2mm(1006封装使用0.1mm超界)，LGA使用0.05mm超界，且向内扩展应超出器件焊脚0.05~0.1mm。
-6. SOP、QFP等有引脚封装焊盘应超出引脚最大公差外沿0.1mm，焊盘内侧应距离本体0.05~0.2mm，且保证焊盘长度大于引脚接触折弯段的最大公差。
+4. 对于单边长大于1.5mm的EP做钢网细化处理，使得钢网开孔边长0.45<span>~</span>1.2mm，钢网连接宽度一般为0.3mm，开孔相对焊盘收缩0.15<span>~</span>0.2mm。(此规则排除POWER器件)
+5. DFN、QFN、SON等无引脚封装的焊盘应超出本体0.2mm(1006封装使用0.1mm超界)，LGA使用0.05mm超界，且向内扩展应超出器件焊脚0.05<span>~</span>0.1mm。
+6. SOP、QFP等有引脚封装焊盘应超出引脚最大公差外沿0.1mm，焊盘内侧应距离本体0.05<span>~</span>0.2mm，且保证焊盘长度大于引脚接触折弯段的最大公差。
 ### 二. 外形
 1. 使用F.Fab层绘制表面贴装器件本体外形(不包含引脚)，并用线宽表示公差。
 2. 封装需包含User.Drawing层的中心十字表示。
 3. 使用F.Courtyard层绘制有引脚表面贴装器件的引脚外沿包络，并使用线宽表示公差。
 4. SMALL-SEMI使用F.Silkscreen绘制外形标识时应大于本体尺寸公差平均值，且MARK不可置于本体下方，所有尺寸的SEMI无引脚封装的MARK都不可以置于本体下方。
-5. MIDDLE-SEMI及更大的有引脚封装MARK绘制使用在1焊盘附近的短横线，距离1焊盘金属层应在0.15mm~0.25mm范围内，且F.Silkscreen层的本体框在朝向1焊盘处需倒角，尺寸为0.5mm。
-6*. 封装的方向需根据器件的编带决定，并按照META中指示的方向绘制，对于含有相同封装而编带不相同的封装需区分，在名称后增加“_(Quadrant)”；使用托盘的器件封装默认按Q2的方向绘制。
+5. MIDDLE-SEMI及更大的有引脚封装MARK绘制使用在1焊盘附近的短横线，距离1焊盘金属层应在0.15mm<span>~</span>0.25mm范围内，且F.Silkscreen层的本体框在朝向1焊盘处需倒角，尺寸为0.5mm。
+6. <span>*</span>封装的方向需根据器件的编带决定，并按照META中指示的方向绘制，对于含有相同封装而编带不相同的封装需区分，在名称后增加“<span>_</span>(Quadrant)”；使用托盘的器件封装默认按Q2的方向绘制。
 ### 三. 命名
-1. (Package type)-(Size)_(Pin count and type)
-2. (Package type)-(Size)_(Pin count and type)_(Quadrant)
+1. (Package type)-(Size)<span>_</span>(Pin count and type)
+2. (Package type)-(Size)<span>_</span>(Pin count and type)<span>_</span>(Quadrant)
 3. (Package type)-(Pin type)
