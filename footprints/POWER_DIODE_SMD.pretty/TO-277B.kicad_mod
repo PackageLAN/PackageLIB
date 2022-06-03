@@ -47,4 +47,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (solder_paste_margin_ratio -0.05) (tstamp c5863427-f4e0-4c46-986a-65dd8ac29cbb))
   (pad "K" smd roundrect (at -1.025 0) (size 4.75 3.35) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.02)
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (solder_paste_margin_ratio -0.05) (tstamp 49dd27eb-e50f-480d-96f7-221cc223677f))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/POWER_DIODE_SMD.3dshapes/TO-277B.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
