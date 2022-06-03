@@ -1,4 +1,4 @@
-(footprint "SON-6050" (version 20211014) (generator pcbnew)
+(footprint "SON-6050-FET" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 62602776)
   (descr "Footprint for single MOSFET")
@@ -7,7 +7,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4c9fdea7-ba0c-45cc-8f66-240980c37d5c)
   )
-  (fp_text value "SON-6050" (at 0 -4.25 unlocked) (layer "F.Fab")
+  (fp_text value "SON-6050-FET" (at 0 -4.25 unlocked) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c58960d9-4cac-4036-ad2e-1aef26946dae)
   )
@@ -76,9 +76,9 @@
   (pad "G" smd rect (at 1.9 2.725) (size 0.7 0.95) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 8ade7975-64a0-440a-8545-11958836bf48))
   (pad "S" smd rect (at -0.625 2.725) (size 3.25 0.95) (layers "F.Cu") (tstamp e0b36e60-bb2b-489c-a764-1b81e551ce62))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/POWER_TRANSISTOR_SMD.3dshapes/SON-8_5x6.wrl"
-    (offset (xyz 0 0 0.5))
-    (scale (xyz 0.4 0.4 0.4))
-    (rotate (xyz 90 0 90))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/POWER_TRANSISTOR_SMD.3dshapes/SON-6050.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
   )
 )
