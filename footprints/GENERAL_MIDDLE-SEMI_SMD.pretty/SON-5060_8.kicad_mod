@@ -38,7 +38,7 @@
     ) (layer "F.SilkS") (width 0.05) (fill solid) (tstamp 03c52831-5dc5-43c5-a442-8d23643b46fb))
   (fp_line (start 0 -0.25) (end 0 0.25) (layer "Dwgs.User") (width 0.1) (tstamp 7844fa1c-c2e9-46d4-aee9-55128915096f))
   (fp_line (start -0.25 0) (end 0.25 0) (layer "Dwgs.User") (width 0.1) (tstamp 9ae7e107-47c3-4f43-acc6-d14899796c06))
-  (fp_rect (start -2.5 -3) (end 2.5 3) (layer "F.Fab") (width 0.05) (fill none) (tstamp 239e2fad-43c2-4c5d-b01d-958b74c9d73b))
+  (fp_rect (start -2.5 -3) (end 2.5 3) (layer "F.CrtYd") (width 0.1) (fill none) (tstamp 239e2fad-43c2-4c5d-b01d-958b74c9d73b))
   (pad "1" smd rect (at -1.905 2.725) (size 0.6 0.95) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 6fc49b93-842f-4814-8ca6-1e11c16fa8fa))
   (pad "2" smd rect (at -0.635 2.725) (size 0.6 0.95) (layers "F.Cu" "F.Paste" "F.Mask")
