@@ -162,7 +162,7 @@
     (property "Value" "LTC3897EFE" (id 1) (at 0 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 7.62 -20.32 0)
+    (property "Footprint" "GENERAL_MIDDLE-SEMI_SMD:SSOP-4497_38EP" (id 2) (at 0 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 7.62 -20.32 0)
