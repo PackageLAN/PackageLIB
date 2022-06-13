@@ -1,7 +1,7 @@
 (footprint "DFN-1006_2" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 6262C0AC)
-  (descr "SOD-882/DFN-1006_3")
+  (descr "SOD-882/DFN-1006_2")
   (attr smd)
   (fp_text reference "REF**" (at 0 1 unlocked) (layer "F.SilkS")
     (effects (font (size 0.6 0.6) (thickness 0.1)))
