@@ -55,7 +55,7 @@
   (fp_line (start 1.75 2.5) (end 1.875 2.375) (layer "Dwgs.User") (width 0.05) (tstamp 9ef5d36d-1a6e-404f-b4da-3e2570720fb9))
   (fp_line (start 2.749999 2.5) (end 1.75 2.5) (layer "Dwgs.User") (width 0.05) (tstamp a908f5a0-315e-4226-8548-70b1e3c04813))
   (fp_line (start 2.5 2.75) (end 2.5 1.75) (layer "Dwgs.User") (width 0.05) (tstamp ac1fac38-0f5a-45eb-9a3f-ef60e8717ff7))
-  (fp_rect (start -2 -2) (end 2 2) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp f2571a4c-3e67-4916-9c0e-b0974b924c84))
+  (fp_rect (start -2 -2) (end 2 2) (layer "F.CrtYd") (width 0.1) (fill none) (tstamp f2571a4c-3e67-4916-9c0e-b0974b924c84))
   (pad "1" smd roundrect (at -1.25 1.8875 90) (size 0.625 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (chamfer_ratio 0.2) (chamfer top_right)
     (solder_mask_margin 0.025) (solder_paste_margin_ratio -0.075) (tstamp b5352a33-563a-4ffe-a231-2e68fb54afa3))
