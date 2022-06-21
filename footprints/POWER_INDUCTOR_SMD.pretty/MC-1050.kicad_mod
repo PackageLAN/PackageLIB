@@ -132,7 +132,7 @@
       (xy -5.5 5)
       (xy -5.5 -5)
       (xy 5.5 -5)
-    ) (layer "F.Fab") (width 0.1) (fill none) (tstamp a27eb049-c992-4f11-a026-1e6a8d9d0160))
+    ) (layer "F.CrtYd") (width 0.1) (fill none) (tstamp a27eb049-c992-4f11-a026-1e6a8d9d0160))
   (pad "1" smd roundrect (at 4.6 0 180) (size 2.8 4.5) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.05)
     (chamfer_ratio 0.075) (chamfer top_left bottom_left)
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp ca87f11b-5f48-4b57-8535-68d3ec2fe5a9))
