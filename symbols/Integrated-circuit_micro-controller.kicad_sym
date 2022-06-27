@@ -1961,7 +1961,10 @@
     (property "Datasheet" "" (id 3) (at -13.97 15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Cortex-M3 72MHz, STM32F1 series" (id 4) (at 0 0 0)
+    (property "ki_keywords" "QFP-7070_48" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Cortex-M3 72MHz, STM32F1 series" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "STM32F103C8Tx_1_0"
