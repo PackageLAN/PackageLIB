@@ -2233,7 +2233,7 @@
     (property "Value" "STM32F103RCTx" (id 1) (at 0 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 2.54 0)
+    (property "Footprint" "GENRAL_LARGE-SEMI_SMD:QFP-1010_64" (id 2) (at 0 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 2.54 0)
