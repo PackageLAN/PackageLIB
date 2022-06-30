@@ -206,7 +206,7 @@
     (property "Value" "HSBB4052" (id 1) (at 7.62 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "POWER_TRANSISTOR_SMD:SON-8_3x3" (id 2) (at 20.32 3.81 0)
+    (property "Footprint" "POWER_TRANSISTOR_SMD:SON-3333-FET" (id 2) (at 21.59 3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0.635 0 0)
