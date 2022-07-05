@@ -702,7 +702,7 @@
     (property "Value" "TJA1051T{slash}3" (id 1) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 -2.54 0)
+    (property "Footprint" "GENERAL_MIDDLE-SEMI_SMD:SOP-8" (id 2) (at 0 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 -2.54 0)
