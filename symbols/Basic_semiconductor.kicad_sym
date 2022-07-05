@@ -430,6 +430,114 @@
       )
     )
   )
+  (symbol "Diode_LED" (pin_names hide) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -5.08 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Diode_LED" (id 1) (at 0 3.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Diode_LED_0_1"
+      (polyline
+        (pts
+          (xy -3.81 0)
+          (xy -1.27 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.778 -2.286)
+          (xy -1.778 -1.778)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.778 -2.286)
+          (xy -1.27 -2.286)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy -1.27 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.762 -2.54)
+          (xy -0.762 -2.032)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.762 -2.54)
+          (xy -0.254 -2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.508 -1.016)
+          (xy -1.778 -2.286)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.508 -1.27)
+          (xy -0.762 -2.54)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 0)
+          (xy 3.81 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 1.27)
+          (xy -1.27 0)
+          (xy 1.27 -1.27)
+          (xy 1.27 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "Diode_LED_1_1"
+      (pin passive line (at -5.08 0 0) (length 1.27)
+        (name "Cathode" (effects (font (size 0.635 0.635))))
+        (number "1" (effects (font (size 0.635 0.635))))
+      )
+      (pin passive line (at 5.08 0 180) (length 1.27)
+        (name "Anode" (effects (font (size 0.635 0.635))))
+        (number "2" (effects (font (size 0.635 0.635))))
+      )
+    )
+  )
   (symbol "Diode_Schottky" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at -4.445 -2.54 0)
       (effects (font (size 1.27 1.27)))
