@@ -169,11 +169,19 @@
       )
     )
   )
+<<<<<<< Updated upstream
   (symbol "Conn_01x06" (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 0 -16.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x06" (id 1) (at 0 1.27 0)
+=======
+  (symbol "Conn_02x03" (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_02x03" (id 1) (at 0 5.08 0)
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 0 0)
@@ -182,6 +190,7 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+<<<<<<< Updated upstream
     (symbol "Conn_01x06_0_0"
       (pin passive line (at -2.54 -1.27 0) (length 1.27)
         (name "" (effects (font (size 0.635 0.635))))
@@ -204,10 +213,35 @@
         (number "5" (effects (font (size 0.635 0.635))))
       )
       (pin passive line (at -2.54 -13.97 0) (length 1.27)
+=======
+    (symbol "Conn_02x03_0_0"
+      (pin passive line (at -3.81 2.54 0) (length 1.27)
+        (name "" (effects (font (size 0.635 0.635))))
+        (number "1" (effects (font (size 0.635 0.635))))
+      )
+      (pin passive line (at -3.81 0 0) (length 1.27)
+        (name "" (effects (font (size 0.635 0.635))))
+        (number "2" (effects (font (size 0.635 0.635))))
+      )
+      (pin passive line (at -3.81 -2.54 0) (length 1.27)
+        (name "" (effects (font (size 0.635 0.635))))
+        (number "3" (effects (font (size 0.635 0.635))))
+      )
+      (pin passive line (at 3.81 -2.54 180) (length 1.27)
+        (name "" (effects (font (size 0.635 0.635))))
+        (number "4" (effects (font (size 0.635 0.635))))
+      )
+      (pin passive line (at 3.81 0 180) (length 1.27)
+        (name "" (effects (font (size 0.635 0.635))))
+        (number "5" (effects (font (size 0.635 0.635))))
+      )
+      (pin passive line (at 3.81 2.54 180) (length 1.27)
+>>>>>>> Stashed changes
         (name "" (effects (font (size 0.635 0.635))))
         (number "6" (effects (font (size 0.635 0.635))))
       )
     )
+<<<<<<< Updated upstream
     (symbol "Conn_01x06_0_1"
       (rectangle (start -1.27 0) (end 1.27 -15.24)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
@@ -722,6 +756,10 @@
     )
     (symbol "Conn_01x14_0_1"
       (rectangle (start -1.27 -1.27) (end 1.27 -36.83)
+=======
+    (symbol "Conn_02x03_0_1"
+      (rectangle (start -2.54 3.81) (end 2.54 -3.81)
+>>>>>>> Stashed changes
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
       )
