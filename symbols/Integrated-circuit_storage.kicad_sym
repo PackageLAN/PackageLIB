@@ -355,11 +355,11 @@
       )
     )
   )
-  (symbol "W25Q32JVSS" (in_bom yes) (on_board yes)
+  (symbol "W25Q32JVSS-8" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -1.27 -15.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "W25Q32JVSS" (id 1) (at 0 0 0)
+    (property "Value" "W25Q32JVSS-8" (id 1) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "GENERAL_MIDDLE-SEMI_SMD:SOIC-5252_8" (id 2) (at 0 0 0)
@@ -368,13 +368,13 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "W25Q32JVSS_0_1"
+    (symbol "W25Q32JVSS-8_0_1"
       (rectangle (start -6.35 -1.27) (end 3.81 -13.97)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
     )
-    (symbol "W25Q32JVSS_1_1"
+    (symbol "W25Q32JVSS-8_1_1"
       (pin input line (at -7.62 -10.16 0) (length 1.27)
         (name "~{CS}" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
