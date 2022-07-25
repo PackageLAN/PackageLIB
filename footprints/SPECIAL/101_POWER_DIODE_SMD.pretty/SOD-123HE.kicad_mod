@@ -22,10 +22,10 @@
   (fp_line (start 0 -0.25) (end 0 0.25) (layer "Dwgs.User") (width 0.1) (tstamp a26c20d7-f4ad-4f52-8ea4-610a0d62e619))
   (fp_rect (start -1.8 -0.775) (end 1.8 0.775) (layer "F.CrtYd") (width 0.2) (fill none) (tstamp 9654d5a2-d23f-455d-a6c6-b7f71c3eaa0e))
   (fp_rect (start -1.35 -0.825) (end 1.35 0.825) (layer "F.Fab") (width 0.1) (fill none) (tstamp 7c415a1b-efc7-470c-97e1-4e82d8de809b))
-  (pad "1" smd roundrect (at -0.85 0) (size 2.3 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
-    (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp c8c79177-94d4-43e2-a654-f0a5554fbb68))
-  (pad "2" smd roundrect (at 1.45 0 90) (size 1.2 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
+  (pad "A" smd roundrect (at 1.45 0 90) (size 1.2 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp dc2801a1-d539-4721-b31f-fe196b9f13df))
+  (pad "K" smd roundrect (at -0.85 0) (size 2.3 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
+    (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp c8c79177-94d4-43e2-a654-f0a5554fbb68))
   (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/GENRAL_DIODE_SMD.3dshapes/D_SOD-123F.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
