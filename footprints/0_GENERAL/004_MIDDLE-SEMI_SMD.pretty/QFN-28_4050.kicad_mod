@@ -1,4 +1,4 @@
-(footprint "QFN-4050_28" (version 20211014) (generator pcbnew)
+(footprint "QFN-28_4050" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr smd)
@@ -6,8 +6,8 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 78f88cf6-751c-4e9b-ae75-fb8b6d44ff39)
   )
-  (fp_text value "QFN-4050_28" (at 0 -3.25 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value "QFN-28_4050" (at 0 -2.75 unlocked) (layer "F.Fab")
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp 75286985-9fa5-4d30-89c5-493b6e63cd66)
   )
   (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide

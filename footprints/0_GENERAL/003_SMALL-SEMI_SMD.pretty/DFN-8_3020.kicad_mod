@@ -1,4 +1,4 @@
-(footprint "DFN-3020_8" (version 20211014) (generator pcbnew)
+(footprint "DFN-8_3020" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 6260262D)
   (attr smd)
@@ -6,8 +6,8 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
   )
-  (fp_text value "DFN-3020_8" (at 0 -2.75 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value "DFN-8_3020" (at 0 -2.25 unlocked) (layer "F.Fab")
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp 6ff874d0-4ac5-414c-83a7-573eda4c7703)
   )
   (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide

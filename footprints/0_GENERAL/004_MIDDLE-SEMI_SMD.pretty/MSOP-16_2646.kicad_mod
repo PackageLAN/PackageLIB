@@ -1,4 +1,4 @@
-(footprint "MSOP-2646_16" (version 20211014) (generator pcbnew)
+(footprint "MSOP-16_2646" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr smd)
@@ -6,8 +6,8 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 29256b3d-9450-4c0a-a4d4-911f04b9c140)
   )
-  (fp_text value "MSOP-2646_16" (at 0 -3.5 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value "MSOP-16_2646" (at 0 -3 unlocked) (layer "F.Fab")
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp b994142f-02ac-4881-9587-6d3df53c96d2)
   )
   (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide

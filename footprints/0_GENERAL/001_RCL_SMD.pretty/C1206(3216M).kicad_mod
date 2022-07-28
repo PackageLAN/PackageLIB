@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b03cb553-3709-44f5-9a1e-0bd7ca2daf93)
   )
-  (fp_text value "C1206(3216M)" (at 0 -2.5) (layer "F.Fab")
+  (fp_text value "C1206" (at 0 -2) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fda0167e-248a-4b89-bf7b-490df46aeb7d)
   )
