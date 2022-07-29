@@ -10,6 +10,10 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 047e0d1e-484a-4d10-b086-6b188a78c581)
   )
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bb0c560b-69a7-4c20-84a3-fa98915a7e98)
+  )
   (fp_line (start -4.15 0.9) (end -4.15 4.15) (layer "F.SilkS") (width 0.2) (tstamp 05f9ec85-3bd2-499e-90ac-77ba12899f5c))
   (fp_line (start 2.4 -4.15) (end 4.15 -2.4) (layer "F.SilkS") (width 0.2) (tstamp 0976ae08-39c8-474c-be26-5628b6c436bc))
   (fp_line (start 2.4 4.15) (end 4.15 2.4) (layer "F.SilkS") (width 0.2) (tstamp 6ba09acc-98f1-48e4-bbc2-2b3e8d01ace7))
@@ -18,8 +22,8 @@
   (fp_line (start -4.15 4.15) (end 2.4 4.15) (layer "F.SilkS") (width 0.2) (tstamp acf81f41-e953-4bf3-a109-1c59a82f6fa5))
   (fp_line (start -4.15 -0.9) (end -4.15 -4.15) (layer "F.SilkS") (width 0.2) (tstamp be679199-4dd7-4cff-ba3d-8a47068afa40))
   (fp_line (start 4.15 -2.4) (end 4.15 -0.9) (layer "F.SilkS") (width 0.2) (tstamp eec8ec34-bf2d-47df-a801-1df1a5b7ccfd))
-  (fp_line (start -0.5 0) (end 0.5 0) (layer "Dwgs.User") (width 0.1) (tstamp c8433008-0d24-4e18-80ed-1ae1b5db5976))
-  (fp_line (start 0 -0.5) (end 0 0.5) (layer "Dwgs.User") (width 0.1) (tstamp fd65a7a2-1ecb-46f9-946f-192774b5bf17))
+  (fp_line (start -0.25 0) (end 0.25 0) (layer "Dwgs.User") (width 0.1) (tstamp 523bfea8-8987-4d4b-a1ed-0e3b2dbaf728))
+  (fp_line (start 0 -0.25) (end 0 0.25) (layer "Dwgs.User") (width 0.1) (tstamp 729a2f70-9aeb-4218-82f3-a08f78db5e25))
   (fp_poly (pts
       (xy 4.15 -2.4)
       (xy 4.15 2.4)

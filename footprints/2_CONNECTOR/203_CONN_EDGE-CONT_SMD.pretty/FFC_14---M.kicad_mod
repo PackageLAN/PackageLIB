@@ -1,4 +1,4 @@
-(footprint "FFC_14" (version 20211014) (generator pcbnew)
+(footprint "FFC_14---M" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr smd)

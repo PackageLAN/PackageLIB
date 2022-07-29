@@ -1,4 +1,4 @@
-(footprint "PINHEADER_02x03_1.27mm" (version 20211014) (generator pcbnew)
+(footprint "PINHEADER_02x03_1.27mm---M" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr smd)

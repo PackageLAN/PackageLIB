@@ -10,6 +10,10 @@
     (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp c58960d9-4cac-4036-ad2e-1aef26946dae)
   )
+  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+    (tstamp c8f594f4-1a0f-42c0-938e-cb52e37a42dd)
+  )
   (fp_line (start 1.6 -1.25) (end 0.35 -1.25) (layer "F.SilkS") (width 0.2) (tstamp 3f8a5430-68a9-4732-9b89-4e00dd8ae219))
   (fp_line (start 1.6 -0.25) (end 1.6 -1.25) (layer "F.SilkS") (width 0.2) (tstamp 42ff012d-5eb7-42b9-bb45-415cf26799c6))
   (fp_line (start -1.6 -1.25) (end -0.35 -1.25) (layer "F.SilkS") (width 0.2) (tstamp 44646447-0a8e-4aec-a74e-22bf765d0f33))
