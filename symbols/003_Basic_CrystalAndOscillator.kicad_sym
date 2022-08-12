@@ -12,6 +12,9 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Symbol type" "Alternate Source" (id 4) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "001_Xtal-2_0_1"
       (rectangle (start -0.635 1.27) (end 0.635 -1.27)
         (stroke (width 0) (type default) (color 0 0 0 0))
@@ -72,6 +75,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -2.54 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Symbol type" "Alternate Source" (id 4) (at 0 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "002_Xtal-4_0_1"
