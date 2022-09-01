@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Get timestamp and version for release
 current_time=`date -u "+%Y-%m-%d %H:%M:%S"`
 current_timestamp=$[10#$(date -d "$current_time" -u +%s)]
@@ -14,7 +15,7 @@ installed_size=${installed_size%%./*}
 installed_size=${installed_size//[[:blank:]]/}
 
 
-# Change metadata.json file
+# Modify metadata.json file
 version_string="            \"version\": \"$package_library_version\",\n"
 kicad_version_string="            \"kicad_version\": \"$package_kicad_version\"\n"
 status_string="            \"status\": \"stable\",\n"
@@ -22,6 +23,7 @@ package_status_string=${version_string}${status_string}${kicad_version_string}
 target_string="\"versions\": ["
 sed -i "s/\"versions\": \[/&\n        {\n${package_status_string}        }/" metadata.json
 zip -r -q PackageLIB.zip resources/ symbols/ footprints/ 3dmodels/ metadata.json
+
 
 # Modify packages.json file
 package_size=`wc -c ./PackageLIB.zip`
@@ -32,22 +34,26 @@ download_sha_string="                    \"download_sha256\": \"$packagelib_sha2
 download_size_string="                    \"download_size\": \"$package_size\",\n"
 installed_size_string="                    \"install_size\": \"$installed_size\",\n"
 downloadurl_string="                    \"download_url\": \"https:\/\/github.com\/PackageLAN\/PackageLIB\/releases\/download\/version$package_library_version\/PackageLIB.zip\",\n"
-version_string="                    \"version\": \"$package_library_version\",\n"
-kicad_version_string="                    \"kicad_version\": \"$package_kicad_version\"\n"
+version_string="                    \"version\": \"$package_library_version\"\n"
+kicad_version_string="                    \"kicad_version\": \"$package_kicad_version\",\n"
 status_string="                    \"status\": \"stable\",\n"
 package_descryp_string=${download_sha_string}${download_size_string}${downloadurl_string}${installed_size_string}
-package_status_string=${version_string}${status_string}${kicad_version_string}
+package_status_string=${kicad_version_string}${status_string}${version_string}
 echo package size is: ${package_size} B
 echo installed size is: ${installed_size} B
 sed -i "s/\"versions\": \[/&\n                {\n${package_descryp_string}${package_status_string}                },/" ./json_config/packages.json
 
 
-
-# Package zip and calculate check value
+# Modify repository.json file
 resources_sha256=`sha256sum ./json_config/resources.zip`
 resources_sha256=${resources_sha256%%  *}
 packages_sha256=`sha256sum ./json_config/packages.json`
 packages_sha256=${packages_sha256%%  *}
 echo resources: $resources_sha256
 echo packages: $packages_sha256
+sed -i "s/PACKAGESSHA256/${packages_sha256}/g" ./json_config/repository.json
+sed -i "s/RESOURCESSHA256/${resources_sha256}/g" ./json_config/repository.json
+sed -i "s/UTCTIMENOW/${current_time}/g" ./json_config/repository.json
+sed -i "s/UTCTIMESTAMP/${current_timestamp}/g" ./json_config/repository.json
+
 
