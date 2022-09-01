@@ -51,6 +51,8 @@ packages_sha256=`sha256sum ./json_config/packages.json`
 packages_sha256=${packages_sha256%%  *}
 echo resources: $resources_sha256
 echo packages: $packages_sha256
+rm ./json_config/repository.json
+cp ./json_config/repository.tmp ./json_config/repository.json
 sed -i "s/PACKAGESSHA256/${packages_sha256}/g" ./json_config/repository.json
 sed -i "s/RESOURCESSHA256/${resources_sha256}/g" ./json_config/repository.json
 sed -i "s/UTCTIMENOW/${current_time}/g" ./json_config/repository.json
