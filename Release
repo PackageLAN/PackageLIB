@@ -1,0 +1,21 @@
+#!/bin/bash
+current_time=`date -u "+%Y-%m-%d %H:%M:%S"`
+current_timestamp=$[10#$(date -d "$current_time" -u +%s)]
+echo now time utc is: $current_time
+echo now time utc second is: $current_timestamp
+
+
+package_library_version=`cat ./json_config/version.txt`
+package_kicad_version=`cat ./json_config/kicad_version.txt`
+echo current library version is: $package_library_version
+echo current kicad_version version is: $package_kicad_version
+
+zip -r PackageLIB.zip resources/ symbols/ footprints/ 3dmodels/ metadata.json 
+
+resources_sha256=`sha256sum ./json_config/resources.zip`
+resources_sha256=${resources_sha256%%  *}
+packages_sha256=`sha256sum ./json_config/packages.json`
+packages_sha256=${packages_sha256%%  *}
+echo resources sha256sum is: $resources_sha256
+echo packages sha256sum is: $packages_sha256
+
