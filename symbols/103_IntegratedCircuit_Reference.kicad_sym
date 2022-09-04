@@ -20,7 +20,7 @@
     )
     (symbol "REF3030_1_1"
       (pin power_in line (at -5.08 2.54 0) (length 1.27)
-        (name "IN" (effects (font (size 0.635 0.635))))
+        (name "Vin" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
       )
       (pin power_out line (at 5.08 2.54 180) (length 1.27)
