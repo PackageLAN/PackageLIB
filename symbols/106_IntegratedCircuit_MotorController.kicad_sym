@@ -12,7 +12,10 @@
     (property "Datasheet" "" (id 3) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_locked" "" (id 4) (at 0 0 0)
+    (property "Symbol type" "Specified Device" (id 4) (at 0 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_locked" "" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (symbol "LV8824QA_1_0"
