@@ -91,8 +91,6 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-    )
-    (symbol "002_Diode_Schottky_1_1"
       (polyline
         (pts
           (xy -3.81 0)
@@ -119,6 +117,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+    )
+    (symbol "002_Diode_Schottky_1_1"      
       (pin passive line (at 5.08 0 180) (length 1.27)
         (name "Anode" (effects (font (size 0.635 0.635))))
         (number "A" (effects (font (size 0.635 0.635))))

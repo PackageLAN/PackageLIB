@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "LDO-3" (in_bom yes) (on_board yes)
+  (symbol "001_LDO-3" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -2.54 -5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LDO-3" (id 1) (at 0 5.08 0)
+    (property "Value" "001_LDO-3" (id 1) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 7.62 0)
@@ -18,13 +18,13 @@
     (property "ki_description" "Alternative group of 3 pins LDO." (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LDO-3_0_1"
+    (symbol "001_LDO-3_0_1"
       (rectangle (start -3.81 3.81) (end 3.81 -3.81)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
     )
-    (symbol "LDO-3_1_1"
+    (symbol "001_LDO-3_1_1"
       (pin power_in line (at -5.08 -2.54 0) (length 1.27)
         (name "GND" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -39,11 +39,11 @@
       )
     )
   )
-  (symbol "LDO-5" (in_bom yes) (on_board yes)
+  (symbol "002_LDO-5" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -2.54 -7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LDO-5" (id 1) (at 0 7.62 0)
+    (property "Value" "002_LDO-5" (id 1) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 2.54 0)
@@ -58,13 +58,13 @@
     (property "ki_description" "Alternative group of 5 pins LDO." (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LDO-5_0_1"
+    (symbol "002_LDO-5_0_1"
       (rectangle (start -3.81 6.35) (end 3.81 -6.35)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
     )
-    (symbol "LDO-5_1_1"
+    (symbol "002_LDO-5_1_1"
       (pin power_in line (at -5.08 5.08 0) (length 1.27)
         (name "Vin" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -87,7 +87,7 @@
       )
     )
   )
-  (symbol "HX9193-33GB-N" (extends "LDO-5")
+  (symbol "HX9193-33GB-N" (extends "002_LDO-5")
     (property "Reference" "U" (id 0) (at -2.54 -7.62 0)
       (effects (font (size 1.27 1.27)))
     )
