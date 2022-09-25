@@ -1,18 +1,21 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "Diode" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "001_Diode" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at -4.445 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Diode" (id 1) (at 0 2.54 0)
+    (property "Value" "001_Diode" (id 1) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "POWER_DIODE_SMD:TO-277A" (id 2) (at 17.78 2.54 0)
+    (property "Footprint" "" (id 2) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "Diode_0_1"
+    (property "Symbol type" "Alternate Source" (id 4) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "001_Diode_0_1"
       (polyline
         (pts
           (xy -3.81 0)
@@ -48,7 +51,7 @@
         (fill (type none))
       )
     )
-    (symbol "Diode_1_1"
+    (symbol "001_Diode_1_1"
       (pin passive line (at 5.08 0 180) (length 1.27)
         (name "Anode" (effects (font (size 0.635 0.635))))
         (number "A" (effects (font (size 0.635 0.635))))
@@ -59,20 +62,23 @@
       )
     )
   )
-  (symbol "Diode_Schottky" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "002_Diode_Schottky" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at -4.445 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Diode_Schottky" (id 1) (at 0 2.54 0)
+    (property "Value" "002_Diode_Schottky" (id 1) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "POWER_DIODE_SMD:TO-277A" (id 2) (at 22.86 2.54 0)
+    (property "Footprint" "" (id 2) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "Diode_Schottky_0_1"
+    (property "Symbol type" "Alternate Source" (id 4) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "002_Diode_Schottky_0_1"
       (polyline
         (pts
           (xy -0.762 1.016)
@@ -85,8 +91,6 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-    )
-    (symbol "Diode_Schottky_1_1"
       (polyline
         (pts
           (xy -3.81 0)
@@ -113,6 +117,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+    )
+    (symbol "002_Diode_Schottky_1_1"      
       (pin passive line (at 5.08 0 180) (length 1.27)
         (name "Anode" (effects (font (size 0.635 0.635))))
         (number "A" (effects (font (size 0.635 0.635))))
@@ -123,17 +129,20 @@
       )
     )
   )
-  (symbol "SVM1550UB" (extends "Diode_Schottky")
+  (symbol "SVM1550UB" (extends "002_Diode_Schottky")
     (property "Reference" "D" (id 0) (at -4.445 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SVM1550UB" (id 1) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "POWER_DIODE_SMD:TO-277A" (id 2) (at 20.32 2.54 0)
+    (property "Footprint" "102_SP_POWER_DIODE_SMD:TO-277A" (id 2) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Symbol type" "Specified Device" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
