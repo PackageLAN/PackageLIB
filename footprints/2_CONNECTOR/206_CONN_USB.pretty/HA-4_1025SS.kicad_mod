@@ -26,8 +26,8 @@
   (fp_line (start 6.65 4.85) (end 6.65 1.25) (layer "F.SilkS") (width 0.2) (tstamp bc69f603-5677-4d0b-8d1a-8d3786aeff23))
   (fp_line (start 6.65 -1.55) (end 4.25 -1.55) (layer "F.SilkS") (width 0.2) (tstamp ecfcf4d6-20f4-4749-85c0-4349d172ee00))
   (fp_line (start -0.25 -1.55) (end 0.25 -1.55) (layer "F.SilkS") (width 0.2) (tstamp f401d4db-8c65-4a62-843d-11485e36cdb6))
-  (fp_line (start -0.25 0.05) (end 0.25 0.05) (layer "Dwgs.User") (width 0.1) (tstamp 5d1ff8a4-6128-4221-9b43-62953d2a5971))
-  (fp_line (start 0 -0.2) (end 0 0.3) (layer "Dwgs.User") (width 0.1) (tstamp 9dd939c9-788e-4b7a-b99f-1d3c93205a66))
+  (fp_line (start -0.25 0) (end 0.25 0) (layer "Dwgs.User") (width 0.1) (tstamp 5d1ff8a4-6128-4221-9b43-62953d2a5971))
+  (fp_line (start 0 -0.25) (end 0 0.25) (layer "Dwgs.User") (width 0.1) (tstamp 9dd939c9-788e-4b7a-b99f-1d3c93205a66))
   (fp_poly (pts
       (xy 4 -1.35)
       (xy 6.45 -1.35)
@@ -73,7 +73,7 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.1) (tstamp daf2115d-02c3-4d42-aca6-6e83af59cc66))
   (pad "SHELL" smd roundrect (at -7.375 6.1) (size 2.25 2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin -0.1) (tstamp dc6c512a-d857-4178-a377-1ea25cae1c70))
-  (model "E:/Works/Open_Source/PackageLIB/3dmodels/2_CONNECTOR/206_CONN_USB.3dshapes/HA-4_1025SS.wrl"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/2_CONNECTOR/206_CONN_USB.3dshapes/HA-4_1025SS.wrl"
     (offset (xyz 0 -7.75 4.75))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 0 0 90))

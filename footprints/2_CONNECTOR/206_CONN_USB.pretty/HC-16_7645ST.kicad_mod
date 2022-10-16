@@ -53,4 +53,9 @@
   (pad "SHELL" thru_hole oval (at 4.32 0 90) (size 2 1) (drill oval 1.6 0.6) (layers *.Cu *.Mask) (tstamp 5daddb40-9aae-4dee-a856-53f2d50d047a))
   (pad "SHELL" thru_hole oval (at -4.32 2.55 90) (size 2 1) (drill oval 1.6 0.6) (layers *.Cu *.Mask) (tstamp a13b1713-09d2-4820-8340-4f1ab605f6e5))
   (pad "SHELL" thru_hole oval (at -4.32 0 90) (size 2 1) (drill oval 1.6 0.6) (layers *.Cu *.Mask) (tstamp e4c02d69-bce7-4701-b4d3-a4de79f6fb5c))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/2_CONNECTOR/206_CONN_USB.3dshapes/HC-16_7645ST.wrl"
+    (offset (xyz 0 -2.55 0))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 0 0 0))
+  )
 )
