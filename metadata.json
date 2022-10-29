@@ -20,5 +20,10 @@
         "library"
     ],
     "versions": [
+        {
+            "version": "1.0",
+            "status": "stable",
+            "kicad_version": "6.0.7"
+        }
     ]
 }
