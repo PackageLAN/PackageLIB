@@ -26,7 +26,7 @@
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp c8c79177-94d4-43e2-a654-f0a5554fbb68))
   (pad "2" smd roundrect (at 1.675 0 90) (size 0.9 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp dc2801a1-d539-4721-b31f-fe196b9f13df))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/GENRAL_DIODE_SMD.3dshapes/D_SOD-123.wrl"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/002_GN_TWO-PIN_PLASTIC_SMD.3dshapes/D_SOD-123.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

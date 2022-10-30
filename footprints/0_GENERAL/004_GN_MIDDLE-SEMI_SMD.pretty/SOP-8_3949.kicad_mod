@@ -43,4 +43,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 34cdc1c9-c9e2-44c4-9677-c1c7d7efd83d))
   (pad "8" smd roundrect (at 2.7 -1.905) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 088f77ba-fca9-42b3-876e-a6937267f957))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/004_GN_MIDDLE-SEMI_SMD.3dshapes/SOP-8_3949.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

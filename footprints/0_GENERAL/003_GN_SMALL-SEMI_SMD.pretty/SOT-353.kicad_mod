@@ -39,7 +39,7 @@
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.075) (tstamp 9a2d648d-863a-4b7b-80f9-d537185c212b))
   (pad "5" smd roundrect (at -0.95 0.65) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.075) (tstamp 35c09d1f-2914-4d1e-a002-df30af772f3b))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/GENRAL_TRANSISTOR_SMD.3dshapes/SOT-353.wrl"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/003_GN_SMALL-SEMI_SMD.3dshapes/SOT-353.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

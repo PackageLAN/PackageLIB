@@ -38,4 +38,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 8d132ad0-02fa-44b6-83f4-ebb27bafb18e))
   (pad "2" smd roundrect (at 2.05 0 90) (size 2.4 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 4fe84e86-0022-4555-b530-84995f1e746e))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/002_GN_TWO-PIN_PLASTIC_SMD.3dshapes/D_SMB.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
