@@ -15,6 +15,9 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "ki_fp_filters" "R*" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "001_Resistor_0_1"
       (rectangle (start -2.54 1.27) (end 2.54 -1.27)
         (stroke (width 0) (type default) (color 0 0 0 0))
