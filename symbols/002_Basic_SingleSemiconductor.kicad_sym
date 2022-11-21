@@ -6,28 +6,31 @@
     (property "Value" "001_Diode" (id 1) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 22.86 2.54 0)
+    (property "Footprint" "002_GN_TWO-PIN_PLASTIC_SMD:SOD-123" (id 2) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Symbol type" "Alternate Source" (id 4) (at 0 5.08 0)
+    (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "002_*:SOD* 002_*:SM?(DO*)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "001_Diode_0_1"
       (polyline
         (pts
-          (xy -3.81 0)
-          (xy -1.27 0)
+          (xy -1.27 1.27)
+          (xy -1.27 -1.27)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy -1.27 1.27)
-          (xy -1.27 -1.27)
+          (xy -3.81 0)
+          (xy -1.27 0)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -69,13 +72,16 @@
     (property "Value" "002_Diode_Schottky" (id 1) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 27.94 2.54 0)
+    (property "Footprint" "002_GN_TWO-PIN_PLASTIC_SMD:SOD-123" (id 2) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Symbol type" "Alternate Source" (id 4) (at 0 5.08 0)
+    (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "002_*:SOD* 002_*:SM?(DO*)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "002_Diode_Schottky_0_1"
@@ -91,8 +97,6 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-    )
-    (symbol "002_Diode_Schottky_1_1"
       (polyline
         (pts
           (xy -3.81 0)
@@ -119,6 +123,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+    )
+    (symbol "002_Diode_Schottky_1_1"
       (pin passive line (at -5.08 0 0) (length 1.27)
         (name "Cathode" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -136,13 +142,16 @@
     (property "Value" "003_Diode_Zener" (id 1) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 25.4 2.54 0)
+    (property "Footprint" "002_GN_TWO-PIN_PLASTIC_SMD:SOD-123" (id 2) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Symbol type" "Alternate Source" (id 4) (at 0 5.08 0)
+    (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "002_*:SOD*" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "003_Diode_Zener_0_1"
@@ -155,8 +164,6 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-    )
-    (symbol "003_Diode_Zener_1_1"
       (polyline
         (pts
           (xy -3.81 0)
@@ -183,6 +190,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+    )
+    (symbol "003_Diode_Zener_1_1"
       (pin passive line (at -5.08 0 0) (length 1.27)
         (name "Cathode" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -244,8 +253,6 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-    )
-    (symbol "004_Diode_TVS_Uni_1_1"
       (polyline
         (pts
           (xy -3.81 0)
@@ -272,6 +279,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+    )
+    (symbol "004_Diode_TVS_Uni_1_1"
       (pin passive line (at -5.08 0 0) (length 1.27)
         (name "Cathode" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -350,8 +359,6 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-    )
-    (symbol "005_Diode_TVS_Bi_1_1"
       (polyline
         (pts
           (xy -2.54 -1.27)
@@ -372,6 +379,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+    )
+    (symbol "005_Diode_TVS_Bi_1_1"
       (pin passive line (at -5.08 0 0) (length 1.27)
         (name "Cathode" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -411,8 +420,6 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-    )
-    (symbol "006_Diode_ESD_Uni_1_1"
       (polyline
         (pts
           (xy -3.81 0)
@@ -453,6 +460,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
+    )
+    (symbol "006_Diode_ESD_Uni_1_1"
       (pin passive line (at -5.08 0 0) (length 1.27)
         (name "Cathode" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -523,8 +532,6 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-    )
-    (symbol "007_Diode_ESD_Bi_1_1"
       (polyline
         (pts
           (xy -2.54 -1.27)
@@ -545,6 +552,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+    )
+    (symbol "007_Diode_ESD_Bi_1_1"
       (pin passive line (at -5.08 0 0) (length 1.27)
         (name "Cathode" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -792,8 +801,6 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-    )
-    (symbol "102_BJT_PNP_1_1"
       (polyline
         (pts
           (xy -3.81 0)
@@ -834,6 +841,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+    )
+    (symbol "102_BJT_PNP_1_1"
       (pin passive line (at -5.08 0 0) (length 1.27)
         (name "Base" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -1075,8 +1084,6 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-    )
-    (symbol "202_MOSFET_P-ch_1_1"
       (circle (center 0 -2.54) (radius 0.127)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
@@ -1173,6 +1180,8 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
+    )
+    (symbol "202_MOSFET_P-ch_1_1"
       (pin passive line (at -5.08 0 0) (length 1.27)
         (name "Gate" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
