@@ -15,7 +15,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "002_*:SOD* 002_*:SM?(DO*)" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "002_*:SOD-* 002_*:SM?(DO-)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "001_Diode_0_1"
@@ -81,7 +81,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "002_*:SOD* 002_*:SM?(DO*) 002_*:DFN-2_*" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "002_*:SOD-* 002_*:SM?(DO-*) 002_*:DFN-2_????" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "002_Diode_Schottky_0_1"
@@ -151,7 +151,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "002_*:SOD*" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "002_*:SOD-*" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "003_Diode_Zener_0_1"
@@ -221,7 +221,7 @@
     (property "ki_description" "IEC 61634-321" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "002_*:SM?(DO*) 002_*:SOD* 002_*:DFN-2_*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "002_*:SM?(DO-*) 002_*:SOD-* 002_*:DFN-2_????" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "004_Diode_TVS_Uni_0_1"
@@ -313,7 +313,7 @@
     (property "ki_description" "IEC 61634-321" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "002_*:SM?(DO*) 002_*:SOD* 002_*:DFN-2_*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "002_*:SM?(DO-*) 002_*:SOD-* 002_*:DFN-2_????" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "005_Diode_TVS_Bi_0_1"
@@ -416,7 +416,7 @@
     (property "ki_description" "IEC 61000-4-(2/4/5)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "002_*:SM?(DO*) 002_*:SOD* 002_*:DFN-2_*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "002_*:SM?(DO-*) 002_*:SOD-* 002_*:DFN-2_????" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "006_Diode_ESD_Uni_0_1"
@@ -500,7 +500,7 @@
     (property "ki_description" "IEC 61000-4-(2/4/5)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "002_*:SM?(DO*) 002_*:SOD* 002_*:DFN-2_*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "002_*:SM?(DO-*) 002_*:SOD-* 002_*:DFN-2_????" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "007_Diode_ESD_Bi_0_1"
@@ -592,7 +592,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "LED*" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "LED????(*M)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "008_Diode_LightEmitting_0_1"
@@ -706,7 +706,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 8.89 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT*23*" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "SOT*23 SOT*23?" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "101_BJT_NPN_0_1"
@@ -800,7 +800,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 8.89 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT*23*" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "SOT*23 SOT*23?" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "102_BJT_PNP_0_1"
@@ -894,7 +894,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 10.16 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT*23*" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "SOT*23 SOT*23?" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "201_MOSFET_N-ch_0_1"
@@ -1063,7 +1063,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 10.16 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT*23*" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "SOT*23 SOT*23?" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "202_MOSFET_P-ch_0_1"

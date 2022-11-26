@@ -67,7 +67,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 10.16 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "PTMR-3*" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "PTMR-3_????" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "002_Potentiometer_0_1"
@@ -205,7 +205,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "CL*" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "CL-????" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "102_PolarCapacitor_0_1"
@@ -357,7 +357,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "MC*" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "MC-????" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "202_PowerChoke_0_1"
