@@ -58,35 +58,28 @@
     (property "Value" "002_Potentiometer" (id 1) (at 10.795 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 90)
+    (property "Footprint" "001_GN_RCL_SMD:PTMR-3_3038" (id 2) (at 17.78 3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Symbol type" "Alternate Source" (id 4) (at 10.16 3.81 0)
+    (property "Symbol type" "Alternate Source" (id 4) (at 10.16 6.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "PTMR-3*" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "002_Potentiometer_0_1"
+      (rectangle (start -1.27 -2.54) (end 1.27 2.54)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy -3.81 0)
           (xy -2.54 0)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -0.381)
-          (xy -2.54 0.381)
-          (xy -1.27 0)
-          (xy -2.54 -0.381)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 -2.54) (end 1.27 2.54)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
@@ -106,18 +99,28 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+      (polyline
+        (pts
+          (xy -2.54 -0.381)
+          (xy -2.54 0.381)
+          (xy -1.27 0)
+          (xy -2.54 -0.381)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
     )
     (symbol "002_Potentiometer_1_1"
       (pin passive line (at 0 5.08 270) (length 1.27)
-        (name "~" (effects (font (size 0.635 0.635))))
+        (name "CCW" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
       )
       (pin input line (at -5.08 0 0) (length 1.27)
-        (name "Div" (effects (font (size 0.635 0.635))))
+        (name "Wiper" (effects (font (size 0.635 0.635))))
         (number "2" (effects (font (size 0.635 0.635))))
       )
       (pin passive line (at 0 -5.08 90) (length 1.27)
-        (name "~" (effects (font (size 0.635 0.635))))
+        (name "CW" (effects (font (size 0.635 0.635))))
         (number "3" (effects (font (size 0.635 0.635))))
       )
     )
@@ -208,6 +211,14 @@
     (symbol "102_PolarCapacitor_0_1"
       (polyline
         (pts
+          (xy -3.81 0)
+          (xy -0.635 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -2.032 -1.016)
           (xy -1.016 -1.016)
         )
@@ -224,22 +235,6 @@
       )
       (polyline
         (pts
-          (xy 0.635 1.27)
-          (xy 0.635 -1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 0)
-          (xy -0.635 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
           (xy -0.635 1.27)
           (xy -0.635 -1.27)
         )
@@ -250,6 +245,14 @@
         (pts
           (xy 0.635 0)
           (xy 3.81 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 1.27)
+          (xy 0.635 -1.27)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -448,6 +451,14 @@
       )
       (polyline
         (pts
+          (xy -3.81 0)
+          (xy -2.54 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -2.54 -1.27)
           (xy 1.905 -1.27)
         )
@@ -462,23 +473,15 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (arc (start 1.905 -1.27) (mid 2.4311 0) (end 1.905 1.27)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 0)
-          (xy -2.54 0)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 3.81 0)
         )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 1.905 -1.27) (mid 2.4311 0) (end 1.905 1.27)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
