@@ -15,7 +15,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "R????(*M) R????SP(*M)" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "R????(????M) R????SP(????M)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "001_Resistor_0_1"
@@ -141,7 +141,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "C????(*M) C????SP(*M)" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "C????(????M) C????SP(????M)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "101_Capacitor_0_1"
@@ -285,7 +285,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "L????(*M) L????SP(*M)" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "L????(????M) L????SP(????M)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "201_Inductor_0_1"
@@ -433,7 +433,7 @@
     (property "Symbol type" "Alternate Source" (id 4) (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "L????(*M) L????SP(*M)" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "L????(????M) L????SP(????M)" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "301_FerriteBead_0_1"
