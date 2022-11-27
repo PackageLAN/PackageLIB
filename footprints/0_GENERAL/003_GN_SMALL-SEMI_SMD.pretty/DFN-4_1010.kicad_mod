@@ -25,7 +25,7 @@
   (fp_line (start -0.25 0) (end 0.25 0) (layer "Dwgs.User") (width 0.1) (tstamp 98559c04-1edf-4a16-a403-ee803395c189))
   (fp_rect (start -0.5 -0.5) (end 0.5 0.5) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 01a1e18e-1544-4b7c-930a-f0329542b117))
   (pad "1" smd custom (at -0.325 0.5 90) (size 0.2 0.1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (solder_mask_margin 0.025) (solder_paste_margin_ratio -0.2)
+    (solder_mask_margin 0.025) (solder_paste_margin -0.05)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -37,7 +37,7 @@
         ) (width 0.025) (fill yes))
     ) (tstamp 00f3ea8b-8a54-4e56-84ff-d98f6c00496c))
   (pad "2" smd custom (at 0.325 0.5 270) (size 0.2 0.1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (solder_mask_margin 0.025) (solder_paste_margin_ratio -0.2)
+    (solder_mask_margin 0.025) (solder_paste_margin -0.05)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -49,7 +49,7 @@
         ) (width 0.025) (fill yes))
     ) (tstamp cd1cff81-9d8a-4511-96d6-4ddb79484001))
   (pad "3" smd custom (at 0.325 -0.5 270) (size 0.2 0.1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (solder_mask_margin 0.025) (solder_paste_margin_ratio -0.2)
+    (solder_mask_margin 0.025) (solder_paste_margin -0.05)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -61,7 +61,7 @@
         ) (width 0.025) (fill yes))
     ) (tstamp 968a6172-7a4e-40ab-a78a-e4d03671e136))
   (pad "4" smd custom (at -0.325 -0.5 90) (size 0.2 0.1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (solder_mask_margin 0.025) (solder_paste_margin_ratio -0.2)
+    (solder_mask_margin 0.025) (solder_paste_margin -0.05)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -73,5 +73,5 @@
         ) (width 0.025) (fill yes))
     ) (tstamp 17ff35b3-d658-499b-9a46-ea36063fed4e))
   (pad "EP" smd roundrect (at 0 0 135) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
-    (solder_mask_margin 0.025) (solder_paste_margin_ratio -0.1) (tstamp 08ec951f-e7eb-41cf-9589-697107a98e88))
+    (solder_mask_margin 0.025) (solder_paste_margin -0.075) (tstamp 08ec951f-e7eb-41cf-9589-697107a98e88))
 )
