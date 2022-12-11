@@ -2917,7 +2917,7 @@
       )
     )
     (symbol "HC32L110B6YA_2_0"
-      (text "Port_C&D" (at 0 -17.78 0)
+      (text "Port_IO" (at 0 -17.78 0)
         (effects (font (size 2.54 2.54)))
       )
     )
