@@ -28,9 +28,9 @@
     (solder_mask_margin 0.025) (solder_paste_margin -0.0325) (tstamp 88606262-3ac5-44a1-aacc-18b26cf4d396))
   (pad "2" smd roundrect (at 0.2125 0 90) (size 0.3 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.025) (solder_paste_margin -0.0325) (tstamp b6cd701f-4223-4e72-a305-466869ccb250))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/GENRAL_DIODE_SMD.3dshapes/DFN-1006_2.wrl"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/002_GN_TWO-PIN_PLASTIC_SMD.3dshapes/DFN-2_0603.step"
     (offset (xyz 0 0 0))
-    (scale (xyz 0.4 0.4 0.4))
-    (rotate (xyz -90 0 180))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

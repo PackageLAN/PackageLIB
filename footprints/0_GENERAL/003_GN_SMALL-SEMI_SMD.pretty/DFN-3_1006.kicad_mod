@@ -31,9 +31,9 @@
     (solder_mask_margin 0.025) (solder_paste_margin -0.05) (tstamp 35fb7c56-dc85-43f7-b954-81b8040a8500))
   (pad "3" smd roundrect (at 0.375 0 90) (size 0.55 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.025) (solder_paste_margin -0.075) (tstamp b6cd701f-4223-4e72-a305-466869ccb250))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/GENRAL_TRANSISTOR_SMD.3dshapes/DFN-1006_3.wrl"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/003_GN_SMALL-SEMI_SMD.3dshapes/DFN-3_1006.step"
     (offset (xyz 0 0 0))
-    (scale (xyz 0.4 0.4 0.4))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
 )

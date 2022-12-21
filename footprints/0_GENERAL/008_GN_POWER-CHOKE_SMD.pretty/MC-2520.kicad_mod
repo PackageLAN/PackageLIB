@@ -23,4 +23,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.1) (tstamp 55e38069-3aa2-4f29-a414-d0f8848bbe15))
   (pad "2" smd roundrect (at 0.95 0 90) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin -0.1) (tstamp 54230c50-d371-49d0-989d-bf4f9be34dba))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/008_GN_POWER-CHOKE_SMD.3dshapes/MC-2520.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

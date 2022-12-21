@@ -34,4 +34,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.1) (tstamp c5a1761e-3391-4e74-90c9-947fd66e1fc6))
   (pad "4" smd roundrect (at -0.875 -0.65) (size 1.15 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin -0.1) (tstamp a3668681-09b1-48f0-a7b1-f6b24183a469))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/006_GN_XTAL_OSC_SMD.3dshapes/CXO-4_2520.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

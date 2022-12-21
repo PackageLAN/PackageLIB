@@ -51,4 +51,9 @@
     (solder_mask_margin 0.025) (solder_paste_margin -0.05) (tstamp 71f46dd8-7d89-4e36-b61d-4101e6dbd711))
   (pad "10" smd roundrect (at -0.775 0.4) (size 0.55 0.225) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.025) (solder_paste_margin -0.05) (tstamp 88865bef-9ab2-49ba-ab26-b72b72e098c4))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/003_GN_SMALL-SEMI_SMD.3dshapes/QFN-10_1814.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

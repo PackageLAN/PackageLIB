@@ -42,7 +42,7 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 7227decf-a61b-4df9-aa54-dd7d8e6c4327))
   (pad "4" smd roundrect (at 0.3875 0.3875) (size 0.425 0.425) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 87ebdebe-0b39-485f-8cd5-83e065744c64))
-  (model "${KICAD6_3DMODEL_DIR}/0_GENERAL/003_GN_SMALL-SEMI_SMD.3dshapes/LED-4_1010.step"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/003_GN_SMALL-SEMI_SMD.3dshapes/LED-4_1010.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

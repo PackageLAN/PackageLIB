@@ -39,4 +39,9 @@
     (solder_mask_margin -0.025) (solder_paste_margin_ratio -0.1) (tstamp 992a541e-10b5-4f51-89bd-e89a88387119))
   (pad "B2" smd circle (at 0.2 -0.2) (size 0.2 0.2) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin -0.025) (solder_paste_margin_ratio -0.1) (tstamp 040bd4d6-c5d5-40c1-adc7-d8b4173b947f))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/1_SPECIAL/104_SP_SMALL_SMD.3dshapes/CSP-4_S7575.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

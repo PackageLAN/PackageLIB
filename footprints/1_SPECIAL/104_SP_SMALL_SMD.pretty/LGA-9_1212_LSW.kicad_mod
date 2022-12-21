@@ -50,4 +50,9 @@
     (solder_mask_margin -0.025) (solder_paste_margin_ratio -0.1) (tstamp 6f31e970-5f1c-4b59-89ba-023ed871babf))
   (pad "Vout" smd circle (at 0 0) (size 0.225 0.225) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin -0.025) (solder_paste_margin_ratio -0.1) (tstamp c37d937c-6cbf-4a17-a43e-f29f96c7467d))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/1_SPECIAL/104_SP_SMALL_SMD.3dshapes/LGA-9_1212_LSW.STEP"
+    (offset (xyz -0.4 -0.4 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
