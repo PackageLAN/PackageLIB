@@ -58,4 +58,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 6b3d1abd-0dc7-4b87-a6e2-b3788061a91d))
   (pad "16" smd roundrect (at 1.85 -1.8375) (size 0.65 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 88813e69-ab07-4a55-aff9-d3ae6b7e4e45))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/004_GN_MIDDLE-SEMI_SMD.3dshapes/MSOP-16_2646.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
