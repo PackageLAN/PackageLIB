@@ -115,7 +115,7 @@
     (property "Value" "USB_TypeC-24" (id 1) (at 0 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 20.32 0)
+    (property "Footprint" "206_CONN_USB:HCF-24_9925STT" (id 2) (at 0 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 5.08 0)
