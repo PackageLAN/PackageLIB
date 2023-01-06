@@ -12,6 +12,9 @@
     (property "Datasheet" "" (id 3) (at 0 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Symbol type" "Alternate Source" (id 4) (at 0 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "CONN_01x20-SHELL_0_0"
       (pin passive line (at -2.54 25.4 0) (length 1.27)
         (name "" (effects (font (size 0.635 0.635))))

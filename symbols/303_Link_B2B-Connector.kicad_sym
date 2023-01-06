@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "CONN_02X20-SHELL" (in_bom yes) (on_board yes)
+  (symbol "CONN_02x10-SHELL" (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 2.54 -15.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CONN_02X20-SHELL" (id 1) (at 0 12.7 0)
+    (property "Value" "CONN_02x10-SHELL" (id 1) (at 0 12.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 -2.54 0)
@@ -15,7 +15,7 @@
     (property "Symbol type" "Alternative Device" (id 4) (at 0 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "CONN_02X20-SHELL_0_0"
+    (symbol "CONN_02x10-SHELL_0_0"
       (pin passive line (at -2.54 10.16 0) (length 1.27)
         (name "" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -101,18 +101,18 @@
         (number "SHELL" (effects (font (size 0.635 0.635))))
       )
     )
-    (symbol "CONN_02X20-SHELL_0_1"
+    (symbol "CONN_02x10-SHELL_0_1"
       (rectangle (start -1.27 11.43) (end 1.27 -13.97)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
     )
   )
-  (symbol "CONN_02X24-SHELL" (in_bom yes) (on_board yes)
+  (symbol "CONN_02x12-SHELL" (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 2.54 -15.24 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CONN_02X24-SHELL" (id 1) (at 0 17.78 0)
+    (property "Value" "CONN_02x12-SHELL" (id 1) (at 0 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 2.54 0)
@@ -124,7 +124,7 @@
     (property "Symbol type" "Alternative Device" (id 4) (at 0 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "CONN_02X24-SHELL_0_0"
+    (symbol "CONN_02x12-SHELL_0_0"
       (pin passive line (at -2.54 15.24 0) (length 1.27)
         (name "" (effects (font (size 0.635 0.635))))
         (number "1" (effects (font (size 0.635 0.635))))
@@ -226,7 +226,7 @@
         (number "SHELL" (effects (font (size 0.635 0.635))))
       )
     )
-    (symbol "CONN_02X24-SHELL_0_1"
+    (symbol "CONN_02x12-SHELL_0_1"
       (rectangle (start -1.27 16.51) (end 1.27 -13.97)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
