@@ -35,7 +35,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp a9b6ba30-7da8-4c8b-a972-87d61dd138d0) (name "RF-CONN") (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
