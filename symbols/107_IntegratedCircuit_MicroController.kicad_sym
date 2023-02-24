@@ -600,7 +600,7 @@
         (alternate "TIMA-5_PWM3" bidirectional line)
         (alternate "XTAL_IN" input clock)
       )
-      (pin bidirectional line (at -10.16 -1.27 0) (length 2.54)
+      (pin bidirectional line (at -10.16 -2.54 0) (length 2.54)
         (name "PD2" (effects (font (size 0.635 0.635))))
         (number "54" (effects (font (size 0.635 0.635))))
       )
