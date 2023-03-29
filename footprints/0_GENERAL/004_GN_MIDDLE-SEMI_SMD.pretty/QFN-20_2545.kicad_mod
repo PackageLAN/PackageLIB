@@ -3,7 +3,7 @@
   (tedit 0)
   (attr smd)
   (fp_text reference "REF**" (at 0 2.25 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.8 0.8) (thickness 0.15)))
+    (effects (font (size 0.6 0.6) (thickness 0.1)))
     (tstamp db0476c8-d576-47e8-9a60-bddc6d24e4c5)
   )
   (fp_text value "QFN-20_2545" (at 0 -2 unlocked) (layer "F.Fab")
