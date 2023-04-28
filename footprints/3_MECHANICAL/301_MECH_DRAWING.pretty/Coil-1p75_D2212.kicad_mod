@@ -13,7 +13,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp 0d430bca-f6e3-4b86-8af8-af558246d8bf)
   )
-  (fp_rect (start -12.5 2.875) (end -7.5 7.125)
+  (fp_rect (start -11.75 2.875) (end -7.5 7.125)
     (stroke (width 0.2) (type solid)) (fill solid) (layer "F.Cu") (tstamp 3b64c22d-53d6-40d9-9a03-64fc5307e839))
   (fp_poly
     (pts
@@ -436,4 +436,12 @@
   (pad "Coil" thru_hole circle (at -8.125 1.25) (size 0.6 0.6) (drill 0.4) (layers "*.Cu") (tstamp 1e6e9562-04f8-4278-a082-cc14387ba284))
   (pad "Coil" thru_hole circle (at -7.375 1.375) (size 0.6 0.6) (drill 0.4) (layers "*.Cu") (tstamp 9343aec4-38cf-488a-9f5f-30323a2df9e8))
   (pad "Coil" thru_hole circle (at -6.75 0.875) (size 0.6 0.6) (drill 0.4) (layers "*.Cu") (tstamp 0cb60f56-bc2a-4625-a0e9-06643b24883f))
+  (pad "E" smd roundrect (at -12.125 5) (size 1.25 4.5) (layers "F.Cu") (roundrect_rratio 0.05) (tstamp 9e7a8243-88d2-464a-93ec-8ca9e3c93c69))
+  (pad "F" smd roundrect (at -12.125 -5.125) (size 1.25 4.75) (layers "F.Cu") (roundrect_rratio 0.05) (tstamp a80043b8-bb21-4830-a4b2-842bf5176487))
+  (pad "F" thru_hole circle (at -12 -7) (size 0.6 0.6) (drill 0.4) (layers "*.Cu") (tstamp a57e250c-186f-46f4-90e4-e05a56a10f89))
+  (pad "F" thru_hole circle (at -12 -6.25) (size 0.6 0.6) (drill 0.4) (layers "*.Cu") (tstamp 9c8a965e-7b60-4998-afa7-76fcb7550eff))
+  (pad "F" thru_hole circle (at -12 -5.5) (size 0.6 0.6) (drill 0.4) (layers "*.Cu") (tstamp ffd0edb4-e50c-4ce6-b82a-db8a5fb10904))
+  (pad "F" thru_hole circle (at -12 -4.75) (size 0.6 0.6) (drill 0.4) (layers "*.Cu") (tstamp 900f3418-a205-43e5-876f-c6b8f2d833c0))
+  (pad "F" thru_hole circle (at -12 -4) (size 0.6 0.6) (drill 0.4) (layers "*.Cu") (tstamp 9aff0c2d-f284-4448-8049-c6408280f8d7))
+  (pad "F" thru_hole circle (at -12 -3.25) (size 0.6 0.6) (drill 0.4) (layers "*.Cu") (tstamp 242a5baf-6339-46b1-bac5-a4a5a964d72d))
 )
