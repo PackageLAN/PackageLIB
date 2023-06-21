@@ -110,7 +110,7 @@
     (solder_mask_margin 0.025) (solder_paste_margin -0.0325) (tstamp 24c94fee-1f23-488d-9ca2-803dc3dadc26))
   (pad "SW" smd roundrect (at 1.9 0) (size 0.6 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.025) (solder_paste_margin -0.0325) (tstamp 305548b0-4e6c-4bb3-9d7e-01976197cde9))
-  (model "${KIPRJMOD}/LIB/3D/LMG1210.step"
+  (model ":KICAD7_3DMODEL_DIR:1_SPECIAL/105_SP_MIDDLE_SMD.3dshapes/QFN-19_3040_DRV.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
