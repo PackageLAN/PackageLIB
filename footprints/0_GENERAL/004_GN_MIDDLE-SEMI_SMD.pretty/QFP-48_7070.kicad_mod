@@ -163,4 +163,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.0325) (tstamp 322b13a5-0806-4a9e-b144-8bac18e195c8))
   (pad "48" smd roundrect (at -2.75 -4.275 90) (size 0.85 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin -0.0325) (tstamp d460a297-d5fb-40c5-a3e8-2005b43b00fc))
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/004_GN_MIDDLE-SEMI_SMD.3dshapes/QFP-48_7070.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
