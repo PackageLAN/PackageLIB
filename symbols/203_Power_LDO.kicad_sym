@@ -191,11 +191,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "002_LDO-5ADJ" (in_bom yes) (on_board yes)
+  (symbol "003_LDO-5ADJ" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -2.54 -10.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "002_LDO-5ADJ" (at 0 10.16 0)
+    (property "Value" "003_LDO-5ADJ" (at 0 10.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "003_GN_SMALL-SEMI_SMD:SOT-23-5" (at 0 12.7 0)
@@ -210,13 +210,13 @@
     (property "ki_description" "Alternative group of 5 pins adjustable LDO." (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "002_LDO-5ADJ_0_1"
+    (symbol "003_LDO-5ADJ_0_1"
       (rectangle (start -5.08 7.62) (end 5.08 -7.62)
         (stroke (width 0.254) (type default))
         (fill (type none))
       )
     )
-    (symbol "002_LDO-5ADJ_1_1"
+    (symbol "003_LDO-5ADJ_1_1"
       (pin power_in line (at -7.62 5.08 0) (length 2.54)
         (name "Vin" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
