@@ -53,7 +53,7 @@
     (solder_mask_margin 0.05) (tstamp 01600802-66c5-45a2-be7f-4fa2327d845b))
   (pad "2" smd roundrect (at 0.8375 0 90) (size 1.5 0.875) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (tstamp fc80fa5b-8c07-4dda-8002-331dcafd556b))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/001_GN_RCL_SMD.3dshapes/C_0805_2012Metric.step"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/001_GN_RCL_SMD.3dshapes/C0805(2012M).step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
