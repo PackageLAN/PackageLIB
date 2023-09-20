@@ -135,7 +135,7 @@
 
     (stroke (width 0.1) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 8b9cedb1-ef58-4ee9-a067-164fb58af9b4))
   (fp_rect (start -8.5 -30) (end 8.5 -10)
-    (stroke (width 0.2) (type solid)) (fill solid) (layer "B.Fab") (tstamp 34d67544-e3f2-42d4-a714-cd7576fb9e35))
+    (stroke (width 0.2) (type solid)) (fill none) (layer "B.Fab") (tstamp 34d67544-e3f2-42d4-a714-cd7576fb9e35))
   (fp_line (start -8.5 -27) (end -10 -27)
     (stroke (width 0.2) (type default)) (layer "F.Fab") (tstamp e6de3066-cdef-4058-86a4-b3d0e24df37c))
   (fp_line (start -8.5 -23) (end -10 -23)

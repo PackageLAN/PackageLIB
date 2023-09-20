@@ -53,4 +53,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 16981ada-6b39-42cd-b267-233870dcda28))
   (pad "10" smd roundrect (at 2.3 -1) (size 0.65 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 3f713ea9-8618-4d87-9f34-ffe497637be5))
+  (model ":KICAD7_3RD_PARTY:3dmodels/com_github_packagelan_packagelib/0_GENERAL/004_GN_MIDDLE-SEMI_SMD.3dshapes/MSOP-10_3030.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

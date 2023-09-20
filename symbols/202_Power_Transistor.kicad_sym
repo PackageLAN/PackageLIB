@@ -18,21 +18,29 @@
     (property "ki_description" "Power N-chanel MOSFET" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "001_MOSFET_N-ch_0_1"
+    (symbol "001_MOSFET_N-ch_1_1"
       (circle (center 0 -2.54) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center 0 -1.905) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -3.175 -1.905)
+          (xy -3.81 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 -1.905)
           (xy 0 -1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -40,7 +48,7 @@
           (xy -1.905 -1.27)
           (xy -1.905 -2.54)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -48,7 +56,7 @@
           (xy -1.905 0.635)
           (xy -1.905 -0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -56,7 +64,7 @@
           (xy -1.905 1.905)
           (xy 0 1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -64,12 +72,12 @@
           (xy -1.905 2.54)
           (xy -1.905 1.27)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0 -1.905)
+          (xy 0 -3.175)
           (xy 0 -3.81)
         )
         (stroke (width 0) (type default))
@@ -77,8 +85,24 @@
       )
       (polyline
         (pts
-          (xy 0 3.81)
+          (xy 0 -1.905)
+          (xy 0 -3.175)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.175)
           (xy 0 1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.175)
+          (xy 0 3.81)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -88,7 +112,16 @@
           (xy 0.635 0.635)
           (xy 1.905 0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 1.905)
+          (xy -2.54 -1.905)
+          (xy -3.175 -1.905)
+        )
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -97,7 +130,7 @@
           (xy 0 0)
           (xy 0 -1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -106,7 +139,7 @@
           (xy 1.27 -2.54)
           (xy 1.27 -0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -115,17 +148,7 @@
           (xy 1.27 2.54)
           (xy 1.27 0.635)
         )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 1.905)
-          (xy -2.54 -1.905)
-          (xy -3.175 -1.905)
-          (xy -3.81 0)
-        )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -135,7 +158,7 @@
           (xy -0.889 -0.381)
           (xy -1.905 0)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -145,15 +168,13 @@
           (xy 1.905 -0.635)
           (xy 1.27 0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (circle (center 0 2.54) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
-    )
-    (symbol "001_MOSFET_N-ch_1_1"
       (pin passive line (at 0 5.08 270) (length 1.27)
         (name "Drain" (effects (font (size 0.635 0.635))))
         (number "D" (effects (font (size 0.635 0.635))))
@@ -185,6 +206,26 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "N_60V_100A_2.6m(1.8m)ohm_20n(41n)C_188W" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (symbol "EPC2065" (extends "001_MOSFET_N-ch")
+    (property "Reference" "Q" (at 3.175 -1.27 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EPC2065" (at 7.62 1.27 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "103_SP_POWER_TRANSISTOR_SMD:DIE-GaN_3520" (at 25.4 3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 0.635 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Symbol type" "Specified Device" (at 10.16 6.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "GaN_80V_60A_(2.7m)ohm_(9.4n)C_2.83W" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -390,10 +431,92 @@
     (symbol "002_MOSFET_P-ch_0_1"
       (polyline
         (pts
+          (xy -3.175 -1.905)
+          (xy -3.81 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -3.175)
+          (xy 0 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.81)
+          (xy 0 3.175)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "002_MOSFET_P-ch_1_1"
+      (circle (center 0 -2.54) (radius 0.127)
+        (stroke (width 0.254) (type default))
+        (fill (type outline))
+      )
+      (circle (center 0 -1.905) (radius 0.127)
+        (stroke (width 0.254) (type default))
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.905 -1.905)
+          (xy 0 -1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 -1.27)
+          (xy -1.905 -2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy -1.905 0)
           (xy -1.016 0)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.635)
+          (xy -1.905 -0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 1.905)
+          (xy 0 1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 2.54)
+          (xy -1.905 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -1.905)
+          (xy 0 -3.175)
+        )
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -401,7 +524,15 @@
           (xy 0 0)
           (xy 0 -1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.175)
+          (xy 0 1.905)
+        )
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -409,7 +540,34 @@
           (xy 0.635 -0.635)
           (xy 1.905 -0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 1.905)
+          (xy -2.54 -1.905)
+          (xy -3.175 -1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 -2.54)
+          (xy 1.27 -2.54)
+          (xy 1.27 -0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 1.27 2.54)
+          (xy 1.27 0.635)
+        )
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -419,7 +577,7 @@
           (xy -1.016 -0.381)
           (xy 0 0)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -429,105 +587,11 @@
           (xy 1.27 -0.635)
           (xy 0.635 0.635)
         )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "002_MOSFET_P-ch_1_1"
-      (circle (center 0 -2.54) (radius 0.127)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (circle (center 0 -1.905) (radius 0.127)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy -1.905 -1.905)
-          (xy 0 -1.905)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 -1.27)
-          (xy -1.905 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 0.635)
-          (xy -1.905 -0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 1.905)
-          (xy 0 1.905)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 2.54)
-          (xy -1.905 1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.905)
-          (xy 0 -3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 3.81)
-          (xy 0 1.905)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -2.54)
-          (xy 1.27 -2.54)
-          (xy 1.27 -0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy 1.27 2.54)
-          (xy 1.27 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 1.905)
-          (xy -2.54 -1.905)
-          (xy -3.175 -1.905)
-          (xy -3.81 0)
-        )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (circle (center 0 2.54) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (pin passive line (at 0 5.08 270) (length 1.27)
@@ -591,10 +655,10 @@
     (property "Value" "101_MOSFET_N-ch_B" (at 13.97 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 0.635 -0.635 0)
+    (property "Footprint" "" (at 1.27 -0.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 0.635 -0.635 0)
+    (property "Datasheet" "" (at 1.27 -0.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Symbol type" "Alternate Source" (at 12.7 7.62 0)
@@ -604,179 +668,24 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "101_MOSFET_N-ch_B_0_1"
-      (rectangle (start -3.175 6.35) (end 3.175 -6.35)
-        (stroke (width 0.1) (type default))
-        (fill (type none))
-      )
       (polyline
         (pts
-          (xy -1.27 -5.08)
-          (xy 0.635 -5.08)
+          (xy -3.175 2.032)
+          (xy -3.175 -2.286)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy -1.27 -4.445)
-          (xy -1.27 -5.715)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -2.54)
-          (xy -1.27 -3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -1.27)
-          (xy 0.635 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -0.635)
-          (xy -1.27 -1.905)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 1.27)
-          (xy 0.635 1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 1.905)
-          (xy -1.27 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.81)
-          (xy -1.27 2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.08)
-          (xy 0.635 5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy -1.27 4.445)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.635 1.27)
-          (xy 0.635 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 -2.54)
-          (xy 2.54 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 3.81)
-          (xy 2.54 3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.175 0)
-          (xy -3.175 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.254 -3.175)
-          (xy 0.635 -3.175)
-          (xy 0.635 -5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.254 3.175)
-          (xy 0.635 3.175)
-          (xy 0.635 1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.635 -5.08)
-          (xy 0.635 -5.715)
           (xy 0 -6.35)
+          (xy 0.635 -5.715)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0.635 -5.08)
-          (xy 1.905 -5.08)
-          (xy 1.905 -3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.635 -1.27)
-          (xy 1.905 -1.27)
-          (xy 1.905 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.635 1.27)
-          (xy 1.905 1.27)
-          (xy 1.905 2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.635 5.08)
           (xy 0.635 5.715)
           (xy 0 6.35)
         )
@@ -785,9 +694,182 @@
       )
       (polyline
         (pts
+          (xy -3.175 -3.556)
+          (xy -3.175 -6.35)
+          (xy -0.254 -6.35)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.254 6.35)
+          (xy -3.175 6.35)
+          (xy -3.175 2.794)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.381 6.35)
+          (xy 3.175 6.35)
+          (xy 3.175 0.254)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.175 -0.254)
+          (xy 3.175 -6.35)
+          (xy 0.381 -6.35)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "101_MOSFET_N-ch_B_1_1"
+      (polyline
+        (pts
+          (xy -3.175 -2.54)
+          (xy -2.54 -5.08)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.175 2.54)
+          (xy -2.54 1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -5.08)
+          (xy 0.635 -5.08)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -4.445)
+          (xy -1.27 -5.715)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -2.54)
+          (xy -1.27 -3.81)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.27)
+          (xy 0.635 -1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -0.635)
+          (xy -1.27 -1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy 0.635 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.905)
+          (xy -1.27 0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 3.81)
+          (xy -1.27 2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 5.08)
           (xy 0.635 5.08)
-          (xy 1.905 5.08)
-          (xy 1.905 3.81)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 5.715)
+          (xy -1.27 4.445)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 -5.08)
+          (xy 0.635 -5.715)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 1.27)
+          (xy 0.635 -1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 5.08)
+          (xy 0.635 5.715)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -2.54)
+          (xy 2.54 -2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 3.81)
+          (xy 2.54 3.81)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.175 0)
+          (xy 0.635 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -797,9 +879,8 @@
           (xy -1.905 -1.27)
           (xy -1.905 -5.08)
           (xy -2.54 -5.08)
-          (xy -3.175 -2.54)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -807,9 +888,62 @@
           (xy -1.905 5.08)
           (xy -1.905 1.27)
           (xy -2.54 1.27)
-          (xy -3.175 2.54)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.254 -3.175)
+          (xy 0.635 -3.175)
+          (xy 0.635 -5.08)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.254 3.175)
+          (xy 0.635 3.175)
+          (xy 0.635 1.27)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 -5.08)
+          (xy 1.905 -5.08)
+          (xy 1.905 -3.81)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 -1.27)
+          (xy 1.905 -1.27)
+          (xy 1.905 -2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 1.27)
+          (xy 1.905 1.27)
+          (xy 1.905 2.54)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.635 5.08)
+          (xy 1.905 5.08)
+          (xy 1.905 3.81)
+        )
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -819,7 +953,7 @@
           (xy -0.254 -3.556)
           (xy -1.27 -3.175)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -829,7 +963,7 @@
           (xy -0.254 2.794)
           (xy -1.27 3.175)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -839,7 +973,7 @@
           (xy 2.54 -3.81)
           (xy 1.905 -2.54)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -849,31 +983,29 @@
           (xy 2.54 2.54)
           (xy 1.905 3.81)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (circle (center 0.635 -5.08) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center 0.635 -1.27) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center 0.635 0) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center 0.635 1.27) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center 0.635 5.08) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
-    )
-    (symbol "101_MOSFET_N-ch_B_1_1"
       (pin passive line (at -5.08 -2.54 0) (length 1.905)
         (name "Gate_bottom" (effects (font (size 0.635 0.635))))
         (number "BG" (effects (font (size 0.635 0.635))))
@@ -881,10 +1013,6 @@
       (pin passive line (at 0 -7.62 90) (length 1.27)
         (name "Source_bottom" (effects (font (size 0.635 0.635))))
         (number "BS" (effects (font (size 0.635 0.635))))
-      )
-      (pin passive line (at -5.08 0 0) (length 1.905)
-        (name "Switch" (effects (font (size 0.635 0.635))))
-        (number "SW" (effects (font (size 0.635 0.635))))
       )
       (pin passive line (at 5.08 0 180) (length 1.905)
         (name "Switch" (effects (font (size 0.635 0.635))))
@@ -940,28 +1068,86 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "102_MOSFET_N-ch_X_0_1"
-      (rectangle (start -6.35 3.81) (end 6.35 -3.81)
-        (stroke (width 0.1) (type default))
+      (polyline
+        (pts
+          (xy -2.286 3.81)
+          (xy 2.286 3.81)
+        )
+        (stroke (width 0) (type default))
         (fill (type none))
       )
-      (circle (center -2.54 -2.54) (radius 0.127)
+      (polyline
+        (pts
+          (xy 2.286 -3.81)
+          (xy -2.286 -3.81)
+        )
         (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.35 0.254)
+          (xy -6.35 3.81)
+          (xy -2.794 3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.794 -3.81)
+          (xy -6.35 -3.81)
+          (xy -6.35 -0.889)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 3.81)
+          (xy 6.35 3.81)
+          (xy 6.35 0.889)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.35 -0.254)
+          (xy 6.35 -3.81)
+          (xy 2.794 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "102_MOSFET_N-ch_X_1_1"
+      (circle (center -2.54 -2.54) (radius 0.127)
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center -2.54 -1.905) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center -2.54 2.54) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -5.715 -1.905)
+          (xy -6.35 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -4.445 -1.905)
           (xy -2.54 -1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -969,7 +1155,7 @@
           (xy -4.445 -1.27)
           (xy -4.445 -2.54)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -977,7 +1163,7 @@
           (xy -4.445 0.635)
           (xy -4.445 -0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -985,7 +1171,7 @@
           (xy -4.445 1.905)
           (xy -2.54 1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -993,12 +1179,12 @@
           (xy -4.445 2.54)
           (xy -4.445 1.27)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy -2.54 -1.905)
+          (xy -2.54 -3.175)
           (xy -2.54 -3.81)
         )
         (stroke (width 0) (type default))
@@ -1006,8 +1192,24 @@
       )
       (polyline
         (pts
-          (xy -2.54 3.81)
+          (xy -2.54 -1.905)
+          (xy -2.54 -3.175)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 3.175)
           (xy -2.54 1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 3.175)
+          (xy -2.54 3.81)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -1017,7 +1219,7 @@
           (xy -1.905 0.635)
           (xy -0.635 0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1025,20 +1227,36 @@
           (xy 1.905 -0.635)
           (xy 0.635 -0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
         (pts
+          (xy 2.54 -3.175)
           (xy 2.54 -3.81)
-          (xy 2.54 -1.905)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
+          (xy 2.54 -3.175)
+          (xy 2.54 -1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
           (xy 2.54 1.905)
+          (xy 2.54 3.175)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 3.175)
           (xy 2.54 3.81)
         )
         (stroke (width 0) (type default))
@@ -1049,7 +1267,7 @@
           (xy 4.445 -2.54)
           (xy 4.445 -1.27)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1057,7 +1275,7 @@
           (xy 4.445 -1.905)
           (xy 2.54 -1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1065,7 +1283,7 @@
           (xy 4.445 -0.635)
           (xy 4.445 0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1073,7 +1291,7 @@
           (xy 4.445 1.27)
           (xy 4.445 2.54)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1081,59 +1299,13 @@
           (xy 4.445 1.905)
           (xy 2.54 1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy -3.429 0)
-          (xy -2.54 0)
-          (xy -2.54 -1.905)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -2.54)
-          (xy -1.27 -2.54)
-          (xy -1.27 -0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 2.54)
-          (xy -1.27 2.54)
-          (xy -1.27 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -2.54)
-          (xy 1.27 -2.54)
-          (xy 1.27 -0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 2.54)
-          (xy 1.27 2.54)
-          (xy 1.27 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.429 0)
-          (xy 2.54 0)
-          (xy 2.54 1.905)
+          (xy 5.715 1.905)
+          (xy 6.35 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -1143,9 +1315,71 @@
           (xy -5.08 1.905)
           (xy -5.08 -1.905)
           (xy -5.715 -1.905)
-          (xy -6.35 0)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.429 0)
+          (xy -2.54 0)
+          (xy -2.54 -1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -2.54)
+          (xy -1.27 -2.54)
+          (xy -1.27 -0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 2.54)
+          (xy -1.27 2.54)
+          (xy -1.27 0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -2.54)
+          (xy 1.27 -2.54)
+          (xy 1.27 -0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 2.54)
+          (xy 1.27 2.54)
+          (xy 1.27 0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.429 0)
+          (xy 2.54 0)
+          (xy 2.54 1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -1.905)
+          (xy 5.08 1.905)
+          (xy 5.715 1.905)
+        )
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1155,7 +1389,7 @@
           (xy -3.429 -0.381)
           (xy -4.445 0)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1165,7 +1399,7 @@
           (xy -0.635 -0.635)
           (xy -1.27 0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1175,7 +1409,7 @@
           (xy 0.635 0.635)
           (xy 1.27 -0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1185,33 +1419,21 @@
           (xy 3.429 0.381)
           (xy 4.445 0)
         )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -1.905)
-          (xy 5.08 1.905)
-          (xy 5.715 1.905)
-          (xy 6.35 0)
-        )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (circle (center 2.54 -2.54) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center 2.54 1.905) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center 2.54 2.54) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
-    )
-    (symbol "102_MOSFET_N-ch_X_1_1"
       (pin passive line (at -2.54 5.08 270) (length 1.27)
         (name "Drain" (effects (font (size 0.635 0.635))))
         (number "D1" (effects (font (size 0.635 0.635))))
@@ -1278,28 +1500,86 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "103_MOSFET_N-ch_M_0_1"
-      (rectangle (start -6.35 3.81) (end 6.35 -3.81)
-        (stroke (width 0.1) (type default))
+      (polyline
+        (pts
+          (xy -2.286 3.81)
+          (xy 2.286 3.81)
+        )
+        (stroke (width 0) (type default))
         (fill (type none))
       )
-      (circle (center -2.54 -2.54) (radius 0.127)
+      (polyline
+        (pts
+          (xy 2.286 -3.81)
+          (xy -2.286 -3.81)
+        )
         (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.35 0.254)
+          (xy -6.35 3.81)
+          (xy -2.794 3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.794 -3.81)
+          (xy -6.35 -3.81)
+          (xy -6.35 -0.889)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 3.81)
+          (xy 6.35 3.81)
+          (xy 6.35 0.254)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.35 -0.889)
+          (xy 6.35 -3.81)
+          (xy 2.794 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "103_MOSFET_N-ch_M_1_1"
+      (circle (center -2.54 -2.54) (radius 0.127)
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center -2.54 -1.905) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center -2.54 2.54) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -5.715 -1.905)
+          (xy -6.35 0)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -4.445 -1.905)
           (xy -2.54 -1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1307,7 +1587,7 @@
           (xy -4.445 -1.27)
           (xy -4.445 -2.54)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1315,7 +1595,7 @@
           (xy -4.445 0.635)
           (xy -4.445 -0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1323,7 +1603,7 @@
           (xy -4.445 1.905)
           (xy -2.54 1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1331,12 +1611,12 @@
           (xy -4.445 2.54)
           (xy -4.445 1.27)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy -2.54 -1.905)
+          (xy -2.54 -3.175)
           (xy -2.54 -3.81)
         )
         (stroke (width 0) (type default))
@@ -1344,8 +1624,24 @@
       )
       (polyline
         (pts
-          (xy -2.54 3.81)
+          (xy -2.54 -1.905)
+          (xy -2.54 -3.175)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 3.175)
           (xy -2.54 1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 3.175)
+          (xy -2.54 3.81)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -1355,7 +1651,7 @@
           (xy -1.905 0.635)
           (xy -0.635 0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1363,20 +1659,36 @@
           (xy 1.905 0.635)
           (xy 0.635 0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
         (pts
+          (xy 2.54 -3.175)
           (xy 2.54 -3.81)
-          (xy 2.54 -1.905)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
+          (xy 2.54 -1.905)
+          (xy 2.54 -3.175)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 3.175)
           (xy 2.54 1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 3.175)
           (xy 2.54 3.81)
         )
         (stroke (width 0) (type default))
@@ -1387,7 +1699,7 @@
           (xy 4.445 -1.905)
           (xy 2.54 -1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1395,7 +1707,7 @@
           (xy 4.445 -1.27)
           (xy 4.445 -2.54)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1403,7 +1715,7 @@
           (xy 4.445 0.635)
           (xy 4.445 -0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1411,7 +1723,7 @@
           (xy 4.445 1.905)
           (xy 2.54 1.905)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1419,59 +1731,13 @@
           (xy 4.445 2.54)
           (xy 4.445 1.27)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy -3.429 0)
-          (xy -2.54 0)
-          (xy -2.54 -1.905)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -2.54)
-          (xy -1.27 -2.54)
-          (xy -1.27 -0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 2.54)
-          (xy -1.27 2.54)
-          (xy -1.27 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -2.54)
-          (xy 1.27 -2.54)
-          (xy 1.27 -0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 2.54)
-          (xy 1.27 2.54)
-          (xy 1.27 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.429 0)
-          (xy 2.54 0)
-          (xy 2.54 -1.905)
+          (xy 5.715 -1.905)
+          (xy 6.35 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -1481,9 +1747,71 @@
           (xy -5.08 1.905)
           (xy -5.08 -1.905)
           (xy -5.715 -1.905)
-          (xy -6.35 0)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.429 0)
+          (xy -2.54 0)
+          (xy -2.54 -1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -2.54)
+          (xy -1.27 -2.54)
+          (xy -1.27 -0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 2.54)
+          (xy -1.27 2.54)
+          (xy -1.27 0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -2.54)
+          (xy 1.27 -2.54)
+          (xy 1.27 -0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 2.54)
+          (xy 1.27 2.54)
+          (xy 1.27 0.635)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.429 0)
+          (xy 2.54 0)
+          (xy 2.54 -1.905)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 1.905)
+          (xy 5.08 -1.905)
+          (xy 5.715 -1.905)
+        )
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1493,7 +1821,7 @@
           (xy -3.429 -0.381)
           (xy -4.445 0)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1503,7 +1831,7 @@
           (xy -0.635 -0.635)
           (xy -1.27 0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1513,7 +1841,7 @@
           (xy 0.635 -0.635)
           (xy 1.27 0.635)
         )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (polyline
@@ -1523,33 +1851,21 @@
           (xy 3.429 -0.381)
           (xy 4.445 0)
         )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 1.905)
-          (xy 5.08 -1.905)
-          (xy 5.715 -1.905)
-          (xy 6.35 0)
-        )
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type none))
       )
       (circle (center 2.54 -2.54) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center 2.54 -1.905) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
       (circle (center 2.54 2.54) (radius 0.127)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type outline))
       )
-    )
-    (symbol "103_MOSFET_N-ch_M_1_1"
       (pin passive line (at -2.54 5.08 270) (length 1.27)
         (name "Drain" (effects (font (size 0.635 0.635))))
         (number "D1" (effects (font (size 0.635 0.635))))
