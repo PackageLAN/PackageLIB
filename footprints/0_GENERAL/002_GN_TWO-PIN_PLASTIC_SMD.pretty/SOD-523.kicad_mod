@@ -1,6 +1,6 @@
 (footprint "SOD-523" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "SOD-523/SOD-523F/SC-79")
+  (tags "SOD-523/SOD-523F/SC-79")
   (attr smd)
   (fp_text reference "REF**" (at 0 1 unlocked) (layer "F.SilkS")
       (effects (font (size 0.5 0.5) (thickness 0.1)))

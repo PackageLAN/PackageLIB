@@ -6,11 +6,11 @@
       (effects (font (size 0.8 0.8) (thickness 0.15) bold))
     (tstamp e4ac6073-287e-4f75-9c6a-02cb14c63d2d)
   )
-  (fp_text value "HCF-16_7426ST" (at 0 -1.75 unlocked) (layer "F.Fab")
+  (fp_text value "HCF-16_7426ST" (at 0 1.25 unlocked) (layer "Cmts.User") hide
       (effects (font (size 0.5 0.5) (thickness 0.1) bold))
     (tstamp 29bdce79-b5bd-49bb-a107-c60f352d884b)
   )
-  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
+  (fp_text user "${REFERENCE}" (at 0 2.25 unlocked) (layer "F.Fab") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp a9eccf01-9d49-4dc4-a378-3a2b9e4e3c48)
   )
