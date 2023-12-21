@@ -5,11 +5,11 @@
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp f46f4b86-daf6-4869-98cb-928039f00f5f)
   )
-  (fp_text value "C1812" (at 0 -0.5) (layer "Cmts.User") hide
+  (fp_text value "C1812" (at 0 -2.5) (layer "Cmts.User")
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp b7e9cf10-b74e-4e80-a7f1-e33a29fe56de)
   )
-  (fp_text user "${REFERENCE}" (at 0 0.5) (layer "F.Fab") hide
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp dfa1b3a6-088f-4fed-9f26-8388193aa0a3)
   )
