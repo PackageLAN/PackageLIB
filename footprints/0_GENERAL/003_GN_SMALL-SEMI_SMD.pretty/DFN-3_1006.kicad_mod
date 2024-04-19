@@ -6,7 +6,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp 0325ec43-0390-4ae2-b055-b1ec6ce17b1c)
   )
-  (fp_text value "DFN-3_1006" (at 0 -1 unlocked) (layer "F.Fab")
+  (fp_text value "DFN-3_1006" (at 0 -0.75 unlocked) (layer "F.Fab")
       (effects (font (size 0.25 0.25) (thickness 0.05)))
     (tstamp 7b044939-8c4d-444f-b9e0-a15fcdeb5a86)
   )

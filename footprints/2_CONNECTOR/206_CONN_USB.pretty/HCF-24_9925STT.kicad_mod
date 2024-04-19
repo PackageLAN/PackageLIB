@@ -91,5 +91,10 @@
   (pad "SHELL" thru_hole oval (at -4.5 2.395 90) (size 1.7 1.1) (drill oval 1.1 0.5) (layers "*.Cu" "*.Mask") (tstamp e4aff3c5-5b8a-4da8-b2bc-1e70514f8454))
   (pad "SHELL" thru_hole oval (at -4.13 -2 90) (size 1.7 1.1) (drill oval 1.1 0.5) (layers "*.Cu" "*.Mask") (tstamp 345df542-a891-43ce-8de9-a1d99f152a19))
   (pad "SHELL" thru_hole oval (at 4.13 -2 90) (size 1.7 1.1) (drill oval 1.1 0.5) (layers "*.Cu" "*.Mask") (tstamp dd16d1e3-019b-4aeb-88a1-041e8fdf8267))
-  (pad "SHELL" thru_hole oval (at 4.5 2.395 90) (size 1.7 1.1) (drill oval 1.1 0.5) (layers "*.Mask" "F.Cu" "In1.Cu" "B.Cu") (tstamp a828709f-5b59-4b90-940e-db96bb6293f4))
+  (pad "SHELL" thru_hole oval (at 4.5 2.395 90) (size 1.7 1.1) (drill oval 1.1 0.5) (layers "*.Cu" "*.Mask") (tstamp a828709f-5b59-4b90-940e-db96bb6293f4))
+  (model ":KICAD6_3RD_PARTY:3dmodels/com_github_packagelan_packagelib/2_CONNECTOR/206_CONN_USB.3dshapes/HCF-24_9925STT.stp"
+    (offset (xyz 46.45 25.85 2.9))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )

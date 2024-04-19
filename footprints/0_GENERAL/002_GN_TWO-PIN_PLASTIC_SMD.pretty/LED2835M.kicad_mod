@@ -65,4 +65,9 @@
     (thermal_bridge_angle 45) (tstamp 6618adda-4ce7-45c6-bf1c-6f3bd3c1549a))
   (pad "2" smd roundrect (at 1.35 0 90) (size 2.35 1.2) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.05)
     (thermal_bridge_angle 45) (tstamp 8b0a7cc1-f56c-483c-9b73-bc2dcaa490fc))
+  (model ":KICAD6_3RD_PARTY:3dmodels/com_github_packagelan_packagelib/0_GENERAL/002_GN_TWO-PIN_PLASTIC_SMD.3dshapes/LED2835M.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

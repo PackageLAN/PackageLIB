@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 15df5716-568d-4590-986f-8c9a24f18879)
   )
-  (fp_text value "Quadrant_Define" (at 0 -0.5 unlocked) (layer "Cmts.User") hide
+  (fp_text value "Quadrant_Define" (at 0 -5.5 unlocked) (layer "Cmts.User") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp a215d009-312b-4641-aa25-3a4b24e6dd5a)
   )
@@ -29,7 +29,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp da2675cc-ada3-4c0b-9c03-9334c1009a8c)
   )
-  (fp_text user "${REFERENCE}" (at 0 0.5) (layer "F.Fab") hide
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp 8c26ee56-cc3f-4050-b55e-b01936e1017e)
   )

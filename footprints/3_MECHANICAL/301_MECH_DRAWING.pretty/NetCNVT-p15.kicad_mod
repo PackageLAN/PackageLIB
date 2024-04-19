@@ -1,0 +1,28 @@
+(footprint "NetCNVT-p15" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 0.25 0.25) (thickness 0.05) bold))
+    (tstamp c07f92b4-f41e-41fe-81ab-1c7ebe9240cf)
+  )
+  (fp_text value "NetCNVT-p15" (at 0 -0.5 unlocked) (layer "F.Fab")
+      (effects (font (size 0.25 0.25) (thickness 0.05) bold))
+    (tstamp 548bc069-b133-4e4e-bed1-1a59c6fb6915)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
+      (effects (font (size 0.25 0.25) (thickness 0.05) bold))
+    (tstamp 2817e786-cf2c-4d46-9e67-303a71f92e22)
+  )
+  (pad "1" connect custom (at -0.25 0) (size 0.15 0.15) (layers "F.Cu")
+    (solder_mask_margin -0.025) (solder_paste_margin_ratio -0.1)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_line (start 0 0) (end 0.25 0) (width 0.15))
+    ) (tstamp cb6399d0-1df4-4f5a-892c-2c7836a78841))
+  (pad "2" connect custom (at 0.25 0) (size 0.15 0.15) (layers "F.Cu")
+    (solder_mask_margin -0.025) (solder_paste_margin_ratio -0.1)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_line (start 0 0) (end -0.25 0) (width 0.15))
+    ) (tstamp ae49ef87-d5e6-4b18-b6ad-7683af2850a4))
+)

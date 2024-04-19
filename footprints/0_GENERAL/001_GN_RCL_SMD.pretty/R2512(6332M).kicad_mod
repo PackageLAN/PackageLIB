@@ -51,7 +51,7 @@
     (stroke (width 0.2) (type solid)) (fill none) (layer "F.CrtYd") (tstamp bf861a22-57a5-43a2-a01f-5eac9109ba5d))
   (pad "1" smd roundrect (at -2.9 0 90) (size 3.4 1.2) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.05) (tstamp 53d290a8-b212-4513-90cb-06afc49296a0))
   (pad "2" smd roundrect (at 2.9 0 90) (size 3.4 1.2) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.05) (tstamp fde3844e-a48f-4ec9-a1ca-0d79508f5e3f))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/GENERAL_RCL_SMD.3dshapes/R_2512_6332Metric.wrl"
+  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/001_GN_RCL_SMD.3dshapes/R2512(6332M).step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
