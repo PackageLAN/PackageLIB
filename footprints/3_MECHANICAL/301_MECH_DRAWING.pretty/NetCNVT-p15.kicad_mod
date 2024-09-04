@@ -1,6 +1,7 @@
 (footprint "NetCNVT-p15" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr exclude_from_pos_files exclude_from_bom)
+  (net_tie_pad_groups "1" "2")
   (fp_text reference "REF**" (at 0 0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 0.25 0.25) (thickness 0.05) bold))
     (tstamp c07f92b4-f41e-41fe-81ab-1c7ebe9240cf)
