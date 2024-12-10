@@ -70,4 +70,9 @@
   (pad "EP" smd roundrect (at 0 0) (size 2.4 1.6) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.025)
     (chamfer_ratio 0.075) (chamfer bottom_left)
     (solder_mask_margin 0.05) (tstamp 96f61974-2891-4bb7-b346-65b1ba4adc10))
+  (model ":KICAD6_3RD_PARTY:3dmodels/com_github_packagelan_packagelib/0_GENERAL/003_GN_SMALL-SEMI_SMD.3dshapes/DFN-10_3030.STEP"
+    (offset (xyz -1 -1.4 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

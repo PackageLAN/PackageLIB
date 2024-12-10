@@ -135,4 +135,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp cace674d-f970-468b-ad6f-649c0ec37bce))
   (pad "S2" smd roundrect (at 0.325 1.4875 90) (size 0.725 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.025)
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 7aab4f0d-4357-4fa2-88e3-59b14a6766ad))
+  (model ":KICAD6_3RD_PARTY:3dmodels/com_github_packagelan_packagelib/1_SPECIAL/103_SP_POWER_TRANSISTOR_SMD.3dshapes/SON-FET-M_3333.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

@@ -6,11 +6,11 @@
       (effects (font (size 0.8 0.8) (thickness 0.15) bold))
     (tstamp e4ac6073-287e-4f75-9c6a-02cb14c63d2d)
   )
-  (fp_text value "HCF-16_7426ST" (at 0 -1.75 unlocked) (layer "F.Fab")
+  (fp_text value "HCF-16_7426ST" (at 0 1.25 unlocked) (layer "Cmts.User") hide
       (effects (font (size 0.5 0.5) (thickness 0.1) bold))
     (tstamp 29bdce79-b5bd-49bb-a107-c60f352d884b)
   )
-  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab") hide
+  (fp_text user "${REFERENCE}" (at 0 2.25 unlocked) (layer "F.Fab") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp a9eccf01-9d49-4dc4-a378-3a2b9e4e3c48)
   )
@@ -74,4 +74,9 @@
   (pad "SHELL" thru_hole oval (at -4.32 4.175 90) (size 1.6 1) (drill oval 1.2 0.5) (layers "*.Cu" "*.Mask") (tstamp a13b1713-09d2-4820-8340-4f1ab605f6e5))
   (pad "SHELL" thru_hole oval (at 4.32 0 90) (size 2 1) (drill oval 1.6 0.5) (layers "*.Cu" "*.Mask") (tstamp 5daddb40-9aae-4dee-a856-53f2d50d047a))
   (pad "SHELL" thru_hole oval (at 4.32 4.175 90) (size 1.6 1) (drill oval 1.2 0.5) (layers "*.Cu" "*.Mask") (tstamp 1a5c16a2-5de0-4b98-8c45-3e77613515f0))
+  (model ":KICAD6_3RD_PARTY:3dmodels/com_github_packagelan_packagelib/2_CONNECTOR/206_CONN_USB.3dshapes/HCF-16_7426ST.step"
+    (offset (xyz 0 0.5 1.625))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0))
+  )
 )

@@ -114,9 +114,9 @@
   (pad "G" smd rect (at 1.9 2.725) (size 0.7 0.95) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 8ade7975-64a0-440a-8545-11958836bf48))
   (pad "S" smd rect (at -0.625 2.725) (size 3.25 0.95) (layers "F.Cu") (tstamp e0b36e60-bb2b-489c-a764-1b81e551ce62))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/POWER_TRANSISTOR_SMD.3dshapes/SON-6050.wrl"
+  (model ":KICAD6_3RD_PARTY:3dmodels/com_github_packagelan_packagelib/1_SPECIAL/103_SP_POWER_TRANSISTOR_SMD.3dshapes/SON-FET_6050.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz -90 0 0))
   )
 )

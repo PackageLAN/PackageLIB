@@ -5,8 +5,8 @@
       (effects (font (size 0.4 0.4) (thickness 0.075) bold))
     (tstamp 4caa68da-1d74-422f-8bbe-3c28c9ea4b69)
   )
-  (fp_text value "R0201" (at 0 -0.525) (layer "F.Fab")
-      (effects (font (size 0.25 0.25) (thickness 0.05)))
+  (fp_text value "R0201" (at 0 -0.4) (layer "Cmts.User")
+      (effects (font (size 0.125 0.125) (thickness 0.025) bold))
     (tstamp 069bdd9d-f380-4c58-987e-4887748031e8)
   )
   (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
@@ -24,9 +24,9 @@
   (fp_rect (start -0.3 -0.15) (end 0.3 0.15)
     (stroke (width 0.03) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 9140eaf7-fd2f-48a7-be3c-a1b3d1a6d7a2))
   (pad "1" smd roundrect (at -0.2375 0 90) (size 0.35 0.275) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
-    (solder_mask_margin 0.025) (solder_paste_margin -0.0325) (tstamp b51e6374-6b7d-472e-92f2-9dae266de01e))
+    (solder_paste_margin -0.0325) (tstamp b51e6374-6b7d-472e-92f2-9dae266de01e))
   (pad "2" smd roundrect (at 0.2375 0 90) (size 0.35 0.275) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
-    (solder_mask_margin 0.025) (solder_paste_margin -0.0325) (tstamp 0c990048-7035-4646-8b07-f79fbfddff62))
+    (solder_paste_margin -0.0325) (tstamp 0c990048-7035-4646-8b07-f79fbfddff62))
   (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/0_GENERAL/001_GN_RCL_SMD.3dshapes/R0201(0603M).step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

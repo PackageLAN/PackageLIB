@@ -1,6 +1,6 @@
 (footprint "XT30PW-F" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (tags "RC Connector XT30")
+  (descr "RC Connector XT30")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 2) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15)))

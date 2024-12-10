@@ -45,4 +45,9 @@
     (solder_mask_margin 0.025) (solder_paste_margin -0.05) (tstamp 4a1069b5-b54d-43c2-8699-49962b3c7a7c))
   (pad "EP" smd roundrect (at 0 0) (size 1.25 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
     (solder_mask_margin 0.05) (solder_paste_margin -0.125) (tstamp 08ec951f-e7eb-41cf-9589-697107a98e88))
+  (model ":KICAD6_3RD_PARTY:3dmodels/com_github_packagelan_packagelib/0_GENERAL/003_GN_SMALL-SEMI_SMD.3dshapes/DFN-6_2020.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

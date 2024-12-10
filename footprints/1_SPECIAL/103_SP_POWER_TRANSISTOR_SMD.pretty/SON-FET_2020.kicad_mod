@@ -72,9 +72,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (tstamp 08895aac-0eaf-4885-9893-39d7cbab257b))
   (pad "S" smd rect (at 0.65 -0.375 90) (size 1.65 0.4) (layers "F.Cu")
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.1) (tstamp 98fe4024-dd1f-4460-ab6c-997be1e2af2c))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_packagelan_packagelib/POWER_TRANSISTOR_SMD.3dshapes/SON-2020.wrl"
+  (model ":KICAD6_3RD_PARTY:3dmodels/com_github_packagelan_packagelib/1_SPECIAL/103_SP_POWER_TRANSISTOR_SMD.3dshapes/SON-FET_2020.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
+    (rotate (xyz 0 0 0))
   )
 )
